@@ -1,6 +1,6 @@
 Right now it is only possible to do if multiple instances of OpenWebRX are started.
 
-1. First of all, you'll have to make a copy of the `openwebrx` directory for each separate instance. So you will have something like an `openwebrx-1`, `openwebrx-2`, `openwebrx-3`...
+1. First of all, you'll have to make a copy of the `openwebrx` directory for each separate instance. You will have something like: `openwebrx-1`, `openwebrx-2`, `openwebrx-3`...
 
 2. You will have to make the following changes to each of the receivers:
   * `web_port` should be different in `config_webrx.py` for each receiver.
