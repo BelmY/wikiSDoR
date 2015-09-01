@@ -1,6 +1,6 @@
 ## Welcome to the OpenWebRX Wiki!
 
-Right now I'm collecting the topics I will write about.
+Right now I'm collecting the ideas of topics I will write about. 
 
 * [[Common problems and their solutions]]
 * Guides
