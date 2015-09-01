@@ -1,4 +1,4 @@
-Right now it is only possible to do if multiple instances of OpenWebRX are started.
+Right now it is only possible to do if multiple instances of OpenWebRX are started simultaneously.
 
 1. First of all, you'll have to make a copy of the `openwebrx` directory for each separate instance. You will have something like: `openwebrx-1`, `openwebrx-2`, `openwebrx-3`...
 
