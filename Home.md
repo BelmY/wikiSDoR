@@ -5,7 +5,7 @@ Right now I'm collecting the topics I will write about.
 * [[Common problems and their solutions]]
 * Guides
   * Setting up your router for port forwarding
-  * Setting up multiple receivers on the same machine
+  * [[Setting up multiple receivers on the same machine]]
   * Setting up OpenWebRX on a Raspberry Pi 2
   * Optimizing OpenWebRX for speed
   * Adding new receiver hardware
