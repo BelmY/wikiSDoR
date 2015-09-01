@@ -1,4 +1,4 @@
-If something does not work as expected, please take a look carefully at the terminal output of OpenWebRX. Sometimes it is not obvious what is causing the problem, as by running OpenWebRX a lot of external processes a spawned, which interact with the server process.
+If something does not work as expected, please take a look at the terminal output of OpenWebRX carefully. Sometimes it is not obvious what is causing the problem, as by running OpenWebRX a lot of external processes a spawned, which interact with the server process.
 
 ## csdr: function name given in argument 1 does not exist.
 
