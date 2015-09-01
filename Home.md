@@ -6,7 +6,9 @@ Right now I'm collecting the topics I will write about.
   * csdr: function name given in argument 1 does not exist.
   * no RTL-SDR device detected
   * my receiver is not getting listed on sdr.hu
-* Setup instructions
+* Guides
   * Setting up your router for port forwarding
   * Setting up multiple receivers on the same machine
   * Setting up OpenWebRX on a Raspberry Pi 2
+  * Optimizing OpenWebRX for speed
+  * Adding new receiver hardware
