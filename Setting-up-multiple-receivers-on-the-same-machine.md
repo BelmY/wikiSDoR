@@ -8,7 +8,7 @@ Right now it is only possible to do if multiple instances of OpenWebRX are start
 
     `start_rtl_command="rtl_sdr -d 0 -s {samp_rate} ...`
   * You should set different `my_listening_port` for each receiver in `config_rtl.py`.
-    You should change this port in `plugins/dsp/csdr/plugin.py` as well, just look for `any_chain_base`.
+    You should change this port in `plugins/dsp/csdr/plugin.py` as well, just look for `any_chain_base` in it.
 
 3. Please note the following:
   * You can use the same *sdr.hu* key for all of your receivers.
