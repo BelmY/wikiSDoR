@@ -4,6 +4,8 @@ If something does not work as expected, please take a look at the terminal outpu
 
 You will usually receive this error message if you pulled the latest OpenWebRX from git, but you did not upgrade *csdr* as well, and the old version of *csdr* is not compatible anymore.
 
+The solution is to upgrade [[csdr|https://github.com/simonyiszk/csdr]].
+
 ## TODO
   * no RTL-SDR device detected
   * my receiver is not getting listed on sdr.hu
