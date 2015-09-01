@@ -1,4 +1,4 @@
-Welcome to the OpenWebRX wiki!
+Welcome to the OpenWebRX Wiki!
 
 Right now I'm collecting the topics I will write about.
 
