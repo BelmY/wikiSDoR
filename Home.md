@@ -9,3 +9,4 @@ Right now I'm collecting the topics I will write about.
   * Setting up OpenWebRX on a Raspberry Pi 2
   * Optimizing OpenWebRX for speed
   * Adding new receiver hardware
+  * Running OpenWebRX as a service
