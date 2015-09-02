@@ -7,7 +7,7 @@ Right now I'm collecting the ideas of topics I will write about.
   * [[Setting up your router for port forwarding]]
   * [[Customizing OpenWebRX for your station]]
   * [[Setting up multiple receivers on the same machine]]
-  * Setting up OpenWebRX on a Raspberry Pi 2
-  * Optimizing OpenWebRX for speed
-  * Adding new receiver hardware
-  * Running OpenWebRX as a service
+  * [[Setting up OpenWebRX on a Raspberry Pi 2]]
+  * [[Optimizing OpenWebRX for speed]]
+  * [[Adding support for new receiver hardware]]
+  * [[Running OpenWebRX as a service]]
