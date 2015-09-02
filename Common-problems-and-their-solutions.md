@@ -30,6 +30,8 @@ You should either blacklist the `dvb_usb_rtl28xxu` kernel module, or solve it qu
 
 ### My receiver is not getting listed on sdr.hu
 
+Receiver listing is typically updated every 5 minutes, but after that, you should suspect that something is not okay.
+
 You should check that your receiver can be reached from the public Internet.
 
 You can do this by reading your status page via a [web proxy](https://www.google.com/?q=free+web+proxy):
