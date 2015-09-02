@@ -2,7 +2,7 @@
 
 There may be multiple causes of this:
 
-### Your internet connection is not fast enough to stream that
+### Your internet connection is not fast enough
 
 OpenWebRX typically requires 200 kbit/s uplink bandwidth per client. If you run it on a home Internet connection, and multiple clients are connected, you may run out of the uplink bandwidth. 
 
