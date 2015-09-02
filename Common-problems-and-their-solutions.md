@@ -14,7 +14,7 @@ You should try to do this before restarting OpenWebRX:
 
 ## I'm getting a totally black waterfall diagram
 
-Most likely you have *ncat* on your system, and on some reason your RTL-SDR or other I/Q input source failed and exited. You will see something like:
+Xou have *ncat* on your system, and on some reason your RTL-SDR or other I/Q input source failed and the corresponding process exited. You will see something like:
 
     No supported devices found.
 
