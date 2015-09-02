@@ -8,7 +8,7 @@ The solution is to upgrade [[csdr|https://github.com/simonyiszk/csdr]].
 
 ### socket.error: [Errno 98] Address already in use
 
-You should try to do this before restarting OpenWebRX (and you don't run other instances of OpenWebRX on the same computer):
+You should try to do this before restarting OpenWebRX *(only if you don't run other instances of OpenWebRX on the same computer)*:
 
     sudo killall csdr
 
