@@ -1,9 +1,7 @@
 ## Welcome to the OpenWebRX Wiki!
 
-Right now I'm collecting the ideas of topics I will write about. 
-
-* [[Common problems and their solutions]]
 * Guides
+  * [[Common problems and their solutions]]
   * [[Setting up your router for port forwarding]]
   * [[Customizing OpenWebRX for your station]]
   * [[Setting up multiple receivers on the same machine]]
