@@ -6,7 +6,7 @@ If you run your receiver from your home internet connection, it is likely that y
 
 *(Image under CC-BY-SA 3.0 by [Wikipedia user Asim18](https://commons.wikimedia.org/wiki/User:Asim18).)*
 
-By default, incoming TCP connections from the Internet are dropped by SOHO routers, so others outside on the Internet will not be able to connect to your receiver.
+By default, incoming TCP connections from the Internet are dropped by SOHO routers, so others outside your LAN will not be able to connect to your receiver.
 
 OpenWebRX runs on TCP port 8073 by default, you will have to set up **port forwarding** at the admin page of the router, to forward the port 8073 TCP connection requests coming from the Internet to the computer running OpenWebRX.
 
