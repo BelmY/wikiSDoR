@@ -10,8 +10,8 @@ By default, incoming TCP connections from the Internet are dropped by SOHO route
 
 You will have to set up **port forwarding** at the admin page of the router, to forward the appropriate TCP connection requests coming from the Internet to the computer running OpenWebRX. 
 
-OpenWebRX runs on TCP port 8073 by default.
-
 There are good guides on how to do that:
   * [portforward.com](http://portforward.com) has step-by-step guides for many routers.
   * There is a general explanation on [howtogeek.com](http://www.howtogeek.com/66214/how-to-forward-ports-on-your-router/).
+
+OpenWebRX runs on **TCP port 8073** by default.
