@@ -20,4 +20,13 @@ You can try several things:
   * Reduce the sampling rate of the SDR hardware (`samp_rate` in `config_webrx.py`).
   * You can also reduce the FFT size (`fft_size`), although it has less impact on CPU usage as it is calculated only once.
 
+### Internal buffering problem within OpenWebRX
+If nothing helps, you can try to increase the `client_audio_buffer_size` in `config_webrx.py`.
 
+## Audio overruns
+
+### In reality, your SDR receiver is not working at the sampling rate you set.
+You should try another value for `samp_rate`.
+
+### Internal buffering problem within OpenWebRX
+If nothing helps, you can try to alter the `client_audio_buffer_size` in `config_webrx.py`.
