@@ -32,7 +32,7 @@ You should either blacklist the `dvb_usb_rtl28xxu` kernel module, or solve it qu
 
 You should check that your receiver can be reached from the public Internet.
 
-You can do this by reading your status page via a [web proxy](http://google.com/?q=free+web+proxy):
+You can do this by reading your status page via a [web proxy](https://www.google.com/?q=free+web+proxy):
 
     http://my_server_address:8073/status
 
