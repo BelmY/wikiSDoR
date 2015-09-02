@@ -4,7 +4,7 @@ There may be multiple causes of this:
 
 ### You run out of Internet uplink bandwidth
 
-OpenWebRX typically requires 200 kbit/s uplink per client. If you run it on a home Internet connection, and multiple clients are connected, you may run out of the uplink bandwidth your ISP allows. 
+OpenWebRX typically requires 200 kbit/s uplink per client. If you run it from a home Internet connection, and multiple clients are connected, you may run out of the uplink bandwidth your ISP allows. 
 
 Possible solutions:
   * Reduce the FFT size (`fft_size` in `config_webrx.py`), by which you can decrease the bandwidth usage to about 100 kbit/s per client.
