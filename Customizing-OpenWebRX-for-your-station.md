@@ -19,3 +19,6 @@ You should replace it with your own logo of 256×256 sized PNG.
 This is how the stock avatar looks like:
 
 ![](https://raw.githubusercontent.com/simonyiszk/openwebrx/master/htdocs/gfx/openwebrx-avatar.png)
+
+## "Web GUI configuration" settings in config_webrx.py
+They are quite self explanatory. Do not forget to remove the first line from photo_desc ("You can add your own background photo and receiver information.<br />")
