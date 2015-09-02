@@ -2,7 +2,7 @@ If something does not work as expected, please take a look at the terminal outpu
 
 ### csdr: function name given in argument 1 does not exist.
 
-You will usually receive this error message if you pulled the latest OpenWebRX from git, but you did not upgrade *csdr* as well, and the old version of *csdr* is not compatible anymore.
+You are likely to receive this error message if you pulled the latest OpenWebRX from git, but you did not upgrade *csdr* as well, and the old version of *csdr* is not compatible anymore.
 
 The solution is to upgrade [[csdr|https://github.com/simonyiszk/csdr]].
 
