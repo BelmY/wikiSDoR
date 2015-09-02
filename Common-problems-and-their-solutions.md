@@ -6,6 +6,28 @@ You will usually receive this error message if you pulled the latest OpenWebRX f
 
 The solution is to upgrade [[csdr|https://github.com/simonyiszk/csdr]].
 
+## socket.error: [Errno 98] Address already in use
+
+You should try to do this before restarting OpenWebRX:
+
+    sudo killall csdr
+
+## I'm getting a totally black waterfall diagram
+
+Most likely you have *ncat* on your system, and on some reason your RTL-SDR or other I/Q input source failed and exited. You will see something like:
+
+    No supported devices found.
+
+Please check manually that your `start_rtl_command` works, e.g. try:
+
+    rtl_sdr - > /dev/null
+
+## usb_claim_interface error -6, Failed to open rtlsdr device #0.
+
+You should either blacklist the `dvb_usb_rtl28xxu` kernel module, or solve it quickly (will have to repeat it on every reboot):
+
+    sudo rmmod dvb_usb_rtl28xxu
+
 ## TODO
   * no RTL-SDR device detected
   * my receiver is not getting listed on sdr.hu
