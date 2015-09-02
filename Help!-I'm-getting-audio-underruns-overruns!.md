@@ -25,7 +25,7 @@ If nothing helps, you can try to increase the `client_audio_buffer_size` in `con
 
 ## Audio overruns
 
-### In reality, your SDR receiver is not working at the sampling rate you set.
+### In reality, your SDR receiver is not working at the sampling rate you set
 You should try another value for `samp_rate`.
 
 ### Internal buffering problem within OpenWebRX
