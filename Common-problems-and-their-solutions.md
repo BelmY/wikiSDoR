@@ -36,4 +36,4 @@ You can do this by reading your status page via a [web proxy](https://www.google
 
     http://my_server_address:8073/status
 
-You should also check that the IP or DNS address you have given in `server_hostname` parameter in `config_webrx.py` corresponds to your address on the public Internet, not your LAN.
+You should also check that the IP or DNS address you have given in the `server_hostname` parameter in `config_webrx.py` corresponds to your address on the public Internet, not your LAN.
