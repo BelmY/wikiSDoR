@@ -28,6 +28,12 @@ You should either blacklist the `dvb_usb_rtl28xxu` kernel module, or solve it qu
 
     sudo rmmod dvb_usb_rtl28xxu
 
+### rtl_sdr: invalid option -- 'p'
+
+It seems you have an old version of `rtl_sdr`, which does not have the `-p` switch for setting the frequency correction.
+
+Recompiling rtl-sdr from the latest <a href="http://sdr.osmocom.org/trac/wiki/rtl-sdr">official sources</a> (or following <a href="http://ha5kfu.sch.bme.hu/openwebrx-quick-setup">this guide</a> on setup) resolves the problem.
+
 ### My receiver is not getting listed on sdr.hu
 
 Receiver listing is typically updated every 5 minutes, but after that, you should suspect that something is not okay.
