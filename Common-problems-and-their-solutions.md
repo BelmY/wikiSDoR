@@ -34,6 +34,8 @@ It seems you have an old version of `rtl_sdr`, which does not have the `-p` swit
 
 Recompiling `rtl-sdr` from the latest <a href="http://sdr.osmocom.org/trac/wiki/rtl-sdr">official sources</a> (or following <a href="http://ha5kfu.sch.bme.hu/openwebrx-quick-setup">this guide</a> on setup) resolves the problem.
 
+Sometimes it also happens that you have multiple `rtl_sdr` versions installed, located at different places. For example, if you have installed `rtl_sdr` via both the Ubuntu repositories with `sudo apt-get install` and the official Git repo with `sudo make install`, it is likely that there will be two conflicting versions in `/usr/bin` and `/usr/local/bin`. The solution is to uninstall the .deb package (`sudo apt-get remove rtl-sdr`).
+
 ### My receiver is not getting listed on sdr.hu
 
 Receiver listing is typically updated every 5 minutes, but after that, you should suspect that something is not okay.
