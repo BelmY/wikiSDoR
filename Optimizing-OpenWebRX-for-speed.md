@@ -1,0 +1,1 @@
+DSP CPU usage can be fine-tuned in `plugins/dsp/csdr/plugin.py`: you can set transition bandwidths higher (thus degrade filter performance by decreasing the length of the kernel, but also decrease CPU usage), and also set `fft_size` lower.
