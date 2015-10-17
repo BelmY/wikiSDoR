@@ -1,6 +1,6 @@
 OpenWebRX should work out-of-the-box on your RPi, if you set it up by [going through this guide](http://ha5kfu.sch.bme.hu/openwebrx-quick-setup).
 
-## Common problems about the RPi 2
+## Common problems on the RPi 2
 
 * [Audio underruns and `csdr flowcontrol` issue](https://github.com/simonyiszk/openwebrx/issues/9)
 * Port 8888 is already in use on your system (edit `config_rtl.py` and `config_webrx.py` and replace this port number with another).
