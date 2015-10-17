@@ -78,4 +78,4 @@ First take a look at which device corresponds to your SD card. You can list the 
 
 Over here, the corresponding device is `mmcblk0p2`. To run `fsck` on it:
 
-    fsck /dev/mmcblk0p2
+    sudo fsck /dev/mmcblk0p2
