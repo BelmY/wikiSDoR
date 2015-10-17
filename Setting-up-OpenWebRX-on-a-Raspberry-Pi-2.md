@@ -31,7 +31,8 @@ You can:
 * Run `fsck` from a laptop running Linux, having the SD card attached.
 * Run `fsck` from a [Ubuntu Live CD](http://ubuntu.com). 
   * Take a look at which device corresponds to your SD card. You can list the block devices with `lsblk`:
-    
+
+
     ha7ilm@pc ~ $ lsblk
     NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
     sda           8:0    0 123,4G  0 disk 
@@ -40,7 +41,8 @@ You can:
     mmcblk0     179:0    0   7,4G  0 disk 
     ├─mmcblk0p1 179:1    0    56M  0 part /media/ha7ilm/boot
     └─mmcblk0p2 179:2    0   7,4G  0 part /media/ha7ilm/18b2d310-8421-01f9-a0e0-1001b0d00173
-    
+
+
   * Over here, the corresponding device is `mmcblk0p2`. To run `fsck` on it:
 
     fsck /dev/mmcblk0p2
