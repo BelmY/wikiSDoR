@@ -1,5 +1,9 @@
 OpenWebRX should work out-of-the-box on your RPi, if you set it up by [going through this guide](http://ha5kfu.sch.bme.hu/openwebrx-quick-setup).
 
+You will need a **Raspberry Pi 2**.
+**Raspberry Pi 1 won't work* as its CPU just doesn't have enough processing capability to make it.
+(`csdr` can make use of both NEON and the multiple cores on the RPi2).
+
 ## Common problems on the RPi 2
 
 * [Audio underruns and `csdr flowcontrol` issue](https://github.com/simonyiszk/openwebrx/issues/9)
