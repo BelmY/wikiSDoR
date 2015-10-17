@@ -19,7 +19,7 @@ You will also be able to inspect the terminal output by typing:
 
     tmux a
 
-`tmux` is quite a useful tool. The programs you start within a `tmux` session will persist even if you close your `ssh` session. Some basic keybindings:
+`tmux` is quite a useful tool. The programs you start within a `tmux` session will persist even if you close your `ssh` session. Some basic keyboard shortcuts:
 
     Ctrl+b, then d                    :  Detaches the tmux session. You can return to it by `tmux a`.
     Ctrl+b, then % or "               :  Splits your screen horizontally or vertically.
