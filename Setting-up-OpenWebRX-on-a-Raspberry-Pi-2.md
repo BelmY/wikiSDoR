@@ -30,9 +30,12 @@ In my article about [pi-rw](http://ha5kfu.sch.bme.hu/node/160) you will find adv
 You can:
 * Run `fsck` from a laptop running Linux, having the SD card attached.
 * Run `fsck` from a [Ubuntu Live CD](http://ubuntu.com). 
-  * Take a look at which device corresponds to your SD card. You can list the block devices with `lsblk`:
+* Run `fsck` from the shell over the [RPi serial port](http://elinux.org/RPi_Serial_Connection) (but you will need a serial adapter).
+* Run `fsck` with a keyboard and HDMI screen attached.
 
-Asd
+You cannot however run `fsck` from `ssh` remotely, as the OS hasn't booted properly yet.
+
+First take a look at which device corresponds to your SD card. You can list the block devices with `lsblk`:
 
     ha7ilm@pc ~ $ lsblk
     NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
