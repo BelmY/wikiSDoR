@@ -15,12 +15,17 @@ You will need a **Raspberry Pi 2**.
 
 The Raspberry Pi 2 should be able to handle about 10 clients simultaneously at the sampling rate of 250 ksps.
 
+It is quite good from an embedded device like that, but don't expect the same performance than from a PC. 
+
 ![](http://ha5kfu.sch.bme.hu/up/levlista/top-all-proc.png)
 
 You will have to set the `max_clients` and the `samp_rate` correctly. 
 If you allow too much clients to connect, audio will lag for all of them (will get audio underruns), as the CPU just can't make it.
 
-The lower the sampling rate is, the lower the CPU usage gets (per client as well).
+The higher the sampling rate is:
+* the higher bandwidth will be seen on the waterfall diagram,
+* the higher the CPU usage gets (per client as well),
+* the less clients can connect without lags.
 
 You should try to open many browser windows and see at how many clients will the audio start to lag.
 
