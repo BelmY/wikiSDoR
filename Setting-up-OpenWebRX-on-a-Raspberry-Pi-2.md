@@ -17,7 +17,7 @@ The Raspberry Pi 2 should be able to handle about 10 clients simultaneously at t
 
 ![](http://ha5kfu.sch.bme.hu/up/levlista/top-all-proc.png)
 
-It is quite good from an embedded ARM board like that, but your PC would do of course better than that.
+It is quite good from an embedded ARM board, but your PC would do of course better than that.
 
 I'm constantly working on getting OpenWebRX faster on the Pi (in the `dev` branch there are some manual assembly optimizations for NEON).
 
