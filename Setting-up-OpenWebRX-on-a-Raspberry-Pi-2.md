@@ -7,7 +7,9 @@ On this page I list some common errors that people have encountered:
 
 ## Some general advice to increase reliability and security
 
-### Avoid possible file system corruption on poweroff
+### Use a firewall and put `sshd` away from TCP port 22
+
+### Avoid possible file system corruption on power-off
 
 If you just pull the plug from your Raspberry without properly shutting it down, it may or may not boot the next time. 
 
@@ -23,9 +25,9 @@ You will see one of the LEDs blinking at a given time interval, and then both LE
 
 In my article about [pi-rw](http://ha5kfu.sch.bme.hu/node/160) you will find advice on doing that.
 
-#### 3. What if my file system has already got corrupted?
+#### 3. What if my file system has already corrupted?
 
-`fsck` is a Linux tool meant for repairing corrupted filesystems.
+`fsck` is a Linux tool meant for repairing corrupted file systems.
 
 You can:
 * Run `fsck` from a laptop running Linux, having the SD card attached.
