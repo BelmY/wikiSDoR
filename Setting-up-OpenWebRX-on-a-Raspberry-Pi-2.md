@@ -32,6 +32,7 @@ You can:
 * Run `fsck` from a [Ubuntu Live CD](http://ubuntu.com). 
   * Take a look at which device corresponds to your SD card. You can list the block devices with `lsblk`:
 
+Asd
 
     ha7ilm@pc ~ $ lsblk
     NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
