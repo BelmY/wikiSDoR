@@ -61,7 +61,7 @@ You can:
 * Run `fsck` from a laptop running Linux, having the SD card attached.
 * Run `fsck` from a [Ubuntu Live CD](http://ubuntu.com). 
 * Run `fsck` from the shell over the [RPi serial port](http://elinux.org/RPi_Serial_Connection) (but you will need a serial adapter).
-* Run `fsck` with a keyboard and HDMI screen attached.
+* Run `fsck` with a keyboard and HDMI screen attached to the RPi.
 
 You cannot however run `fsck` from `ssh` remotely, as the OS hasn't booted properly yet.
 
