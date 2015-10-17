@@ -15,7 +15,9 @@ You will need a **Raspberry Pi 2**.
 
 The Raspberry Pi 2 should be able to handle about 10 clients simultaneously at the sampling rate of 250 ksps.
 
-It is quite good from an embedded device like that, but don't expect the same performance than from a PC. 
+It is quite good from an embedded ARM board like that, but your PC would do of course better than that.
+
+I'm constantly doing optimizations to get OpenWebRX faster on the Pi (in the `dev` branch there are some manual assembly optimizations for NEON).
 
 ![](http://ha5kfu.sch.bme.hu/up/levlista/top-all-proc.png)
 
