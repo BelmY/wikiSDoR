@@ -42,7 +42,6 @@ You can:
     ├─mmcblk0p1 179:1    0    56M  0 part /media/ha7ilm/boot
     └─mmcblk0p2 179:2    0   7,4G  0 part /media/ha7ilm/18b2d310-8421-01f9-a0e0-1001b0d00173
 
-
-  * Over here, the corresponding device is `mmcblk0p2`. To run `fsck` on it:
+Over here, the corresponding device is `mmcblk0p2`. To run `fsck` on it:
 
     fsck /dev/mmcblk0p2
