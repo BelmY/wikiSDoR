@@ -9,6 +9,8 @@ On this page I list some common errors that people have encountered:
 
 ### Use a firewall and put `sshd` away from TCP port 22
 
+(TBD)
+
 ### Avoid possible file system corruption on power-off
 
 If you just pull the plug from your Raspberry without properly shutting it down, it may or may not boot the next time. 
