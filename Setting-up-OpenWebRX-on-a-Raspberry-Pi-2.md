@@ -1,15 +1,28 @@
 OpenWebRX should work out-of-the-box on your RPi, if you set it up by [going through this guide](http://ha5kfu.sch.bme.hu/openwebrx-quick-setup).
 
-On this page I list some common errors that people have encountered:
+## Common problems about the RPi 2
 
 * [Audio underruns and `csdr flowcontrol` issue](https://github.com/simonyiszk/openwebrx/issues/9)
 * Port 8888 is already in use on your system (edit `config_rtl.py` and `config_webrx.py` and replace this port number with another).
+
+## Compromise between performance and the number of clients
+
+The Raspberry Pi 2 should be able to handle about 10 clients simultaneously at the sampling rate of 250 ksps.
+
+![](http://ha5kfu.sch.bme.hu/up/levlista/top-all-proc.png)
+
+You will have to set the `max_clients` and the `samp_rate` correctly. 
+If you allow too much clients to connect, audio will lag for all of them (will get audio underruns), as the CPU just can't make it.
+
+The lower the sampling rate is, the lower the CPU usage gets (per client as well).
+
+You should try to open many browser windows and see at how many clients will the audio start to lag.
 
 ## Some general advice to increase reliability and security
 
 ### Use a firewall and put `sshd` away from TCP port 22
 
-(TBD)
+(TODO)
 
 ### Avoid possible file system corruption on power-off
 
