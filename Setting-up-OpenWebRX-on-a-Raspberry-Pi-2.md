@@ -19,7 +19,7 @@ The Raspberry Pi 2 should be able to handle about 10 clients simultaneously at t
 
 It is quite good from an embedded ARM board, but your PC would do of course better than that.
 
-I'm constantly working on getting OpenWebRX faster on the Pi (in the `dev` branch there are some manual assembly optimizations for NEON).
+I'm constantly working on getting OpenWebRX faster on the Pi (in the `dev` branch I've already done some manual assembly optimizations for NEON).
 
 You will have to set the `max_clients` and the `samp_rate` correctly. 
 If you allow too much clients to connect, audio will lag for all of them (will get audio underruns), as the CPU just can't make it.
