@@ -1,4 +1,4 @@
-OpenWebRX should work out-of-the-box on your RPi, if you set it up by [going through this guide](http://ha5kfu.sch.bme.hu/openwebrx-quick-setup).
+OpenWebRX should work out of the box on your RPi, if you set it up by [going through this guide](http://ha5kfu.sch.bme.hu/openwebrx-quick-setup).
 
 You will need a **Raspberry Pi 2**.
 
