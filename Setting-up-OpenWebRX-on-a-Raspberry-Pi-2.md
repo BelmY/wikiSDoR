@@ -13,7 +13,7 @@ You will need a **Raspberry Pi 2**.
 
 ## Compromise between performance and the maximum number of clients
 
-The Raspberry Pi 2 should be able to handle about 10 clients simultaneously at the sampling rate of 250 ksps.
+The Raspberry Pi 2 should be able to handle about 5-10 clients simultaneously at the sampling rate of 250 ksps.
 
 ![](http://ha5kfu.sch.bme.hu/up/levlista/top-all-proc.png)
 
