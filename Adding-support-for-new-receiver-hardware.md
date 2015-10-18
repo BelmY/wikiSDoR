@@ -38,7 +38,7 @@ You can easily add support for other receiver hardware, if:
 
 ## Remember
 
-...to set receiver parameters correctly. Let's say, you own a brand new product called WhateverSDR, which outputs 16-bit I/Q samples at a fixed rate of 200000 sps, from the 2-meter band. It has a commandline tool called `whatever_sdr`, but it doesn't let you set the sampling rate. Then you would do this:
+...to set receiver parameters correctly. Let's say, you own a brand new product called WhateverSDR, which outputs 16-bit I/Q samples at a fixed rate of 200000 sps, from the 2-meter band (145 MHz). It has a commandline tool called `whatever_sdr`, but it doesn't let you set the sampling rate. Then you would do this:
 
     start_rtl_command="whatever_sdr - | nc -l 127.0.0.1 8888"
     format_conversion="csdr convert_i16_f"
