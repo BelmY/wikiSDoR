@@ -1,6 +1,6 @@
 As OpenWebRX relies on a lot of subprocesses, it uses OS pipes / FIFOs quite often for inter-process communication.
 
-It is quite the same while handling the receiver hardware: to acquire the I/Q samples, OpenWebRX uses the commandline tools made for controlling the hardware.
+It is quite the same while handling the receiver hardware: to acquire the I/Q samples, OpenWebRX uses the commandline tools made for controlling the receiver.
 
 If your receiver hardware is not supported yet, you will definitely need to do is to edit `config_webrx.py`. Take a look at these lines:
 
