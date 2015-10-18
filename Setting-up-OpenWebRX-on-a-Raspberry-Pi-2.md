@@ -12,6 +12,7 @@ It is not sure that you will run into any of these, but anyway:
 
 * [Audio underruns and `csdr flowcontrol` issue](https://github.com/simonyiszk/openwebrx/issues/9)
 * Port 8888 is already in use on your system (edit `config_rtl.py` and `config_webrx.py` and replace this port number with another).
+* THe Pi doesn't start with RTL-SDR is plugged in / restarts when plugging in RTL-SDR / fails to recongize RTL-SDR: maybe your power supply cannot provide enough current. You should try a dedicated 5V / 2A power supply [like this](http://www.adafruit.com/product/1995). I wasn't able to use the RPi from a laptop USB port, needed a dedicated PSU.
 
 ## Compromise between performance and the maximum number of clients
 
