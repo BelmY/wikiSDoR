@@ -38,11 +38,15 @@ You should try to open many browser windows and see at how many clients will the
 
 ## Some general advice to increase reliability and security
 
-### Use a firewall and put `sshd` away from TCP port 22
+### Use a firewall
 
 If you don't want to learn `iptables`, you can use `ufw` on Debian/Ubuntu based systems. `ufw` stands for Uncomplicated Firewall. After `ufw` has been started, it will block any incoming TCP connections / UDP packets unless specifically enabled.
 
 (This part is to be finished.)
+
+### Put `sshd` away from TCP port 22
+
+(This part is to be done.)
 
 ### Avoid possible file system corruption on power-off
 
