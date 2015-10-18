@@ -6,7 +6,7 @@ You will need a **Raspberry Pi 2**.
 
 (`csdr` can make use of both NEON and the multiple cores on the RPi2).
 
-## Common issues on the RPi 2
+## Common issues with the RPi 2
 
 It is not sure that you will run into any of these, but anyway:
 
