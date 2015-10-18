@@ -8,6 +8,8 @@ You will need a **Raspberry Pi 2**.
 
 ## Common problems on the RPi 2
 
+It is not sure that you will run into any of these, but anyway:
+
 * [Audio underruns and `csdr flowcontrol` issue](https://github.com/simonyiszk/openwebrx/issues/9)
 * Port 8888 is already in use on your system (edit `config_rtl.py` and `config_webrx.py` and replace this port number with another).
 
