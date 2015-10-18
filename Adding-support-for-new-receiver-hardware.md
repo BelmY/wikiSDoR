@@ -43,5 +43,5 @@ You can easily add support for other receiver hardware, if:
     start_rtl_command="whatever_sdr - | nc -l 127.0.0.1 8888"
     format_conversion="csdr convert_i16_f"
 
-Still you have to set the `samp_rate` and `center_freq` correctly so that OpenWebRX would know what to write on the frequency scale, and what to expect while processing the I/Q data.
+Still you have to set the `samp_rate = 200000` and `center_freq = 145000000` so that OpenWebRX would know what to write on the frequency scale, and what to expect while processing the I/Q data.
 
