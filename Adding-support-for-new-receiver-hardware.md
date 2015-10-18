@@ -13,7 +13,7 @@ Notice that the command to be run by OpenWebRX is something like:
 
 The `rtl_sdr` tool is called with various commandline parameters, which are substituted from other settings (like center frequency, sampling rate, PPM).
 
-Then the `-` at the end says that `rtl_sdr` should output the samples to the standard output, from where it is piped into `nc` (netcat), which implements a simple TCP server while used with `-l`.
+Then the `-` at the end says that `rtl_sdr` should output the samples to the standard output, from where it is piped into `nc` (netcat), which implements a simple TCP server while started with `-l`.
 
 There is another important setting: `format_conversion` will tell OpenWebRX that the RTL-SDR outputs 8-bit unsigned samples. We have to convert these to 32-bit floating point samples in order to precess them with `csdr`. The available conversion options are listed on the [csdr project page](https://github.com/simonyiszk/csdr#data-types).
 
