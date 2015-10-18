@@ -11,4 +11,3 @@
   * [[Setting up OpenWebRX on a Raspberry Pi 2]]
   * [[Optimizing OpenWebRX for speed]]
   * [[Adding support for new receiver hardware]]
-  * [[Running OpenWebRX as a service]]
