@@ -48,7 +48,7 @@ You can do this by reading your status page via a [web proxy](https://www.google
 
 You should also check that the IP or DNS address you have given in the `server_hostname` parameter in `config_webrx.py` corresponds to your address on the public Internet, not your LAN. You can get your public IP address with the help of [this service](http://icanhazip.com/).
 
-### I'm only seeing one amateur radio band on the waterfall (around 145 MHz), but I want to see the whole range of my SDR receiver, from 24 MHz to 1800 MHz
+### I'm only seeing one amateur radio band on the waterfall, but I want to see the whole range of my SDR receiver, from 24 MHz to 1800 MHz
 
 Unfortunately, this cannot be done.
 
