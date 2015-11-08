@@ -47,3 +47,21 @@ You can do this by reading your status page via a [web proxy](https://www.google
     http://my_server_address:8073/status
 
 You should also check that the IP or DNS address you have given in the `server_hostname` parameter in `config_webrx.py` corresponds to your address on the public Internet, not your LAN. You can get your public IP address with the help of [this service](http://icanhazip.com/).
+
+### I'm only seeing one amateur radio band on the waterfall (around 145 MHz), but I want to see the whole range of my SDR receiver, from 24 MHz to 1800 MHz
+
+Unfortunately, this cannot be done.
+
+The bandwidth that can be continuously acquired with SDR receivers is limited by the **sampling rate** of the receiver. With RTL-SDR, the maximum bandwidth is 2.4 MHz (corrsponding to 2.4 Msps sampling rate).
+
+If you use other similar software like gqrx, SDR#, HDSDR, etc. you can still see a maximum bandwidth of 2.4 MHz. The 24..1800 MHz range corresponds to the *center frequency*, so you will be able to see 2.4 MHz in total, centered at somewhere within this range. For example, from 144.0 MHz to 146.4 MHz. 
+
+There are some <a href="http://www.rtl-sdr.com/spektrum-new-rtl-sdr-spectrum-analyzer-software/">software</a> that can draw a wide-band spectrum display with an RTL-SDR, but these are tuning the center frequency of the receiver continuously. If we did that, we could have a nice waterfall but could not demodulate the signals to audio.
+
+## I want to change the center frequency from the web interface
+
+It cannot be done now, as OpenWebRX has been developed for use by multiple users simultaneously.
+
+If one user changed the center frequency while others were listening to something, it would screw up the reception for all others.
+
+However, as many have already asked for this feature because they want to use their web-based receiver on their own, it is on my roadmap to implement it.
