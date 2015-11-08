@@ -10,4 +10,6 @@
     start_rtl_command="rtl_sdr -D1 -s {samp_rate} -f {center_freq} -p {ppm} ...
                                 /\___ this is the switch to add
 
-`-D1` means that the dongle is set to direct-sampling from the I branch.
+`-D1` means that the dongle is set to direct-sampling from input 1 / I.
+`-D2` means that the dongle is set to direct-sampling from input 2 / Q.
+`-D3` means that the dongle is set to no-mod direct-sampling.
