@@ -15,13 +15,13 @@
 
 This will install the `kal` utility to your computer.
 
-Use the stock antenna of the tuner.
-
 **Step #1** is to scan for GSM channels:
 
     kal -g30 -sGSM900 -v
 
-**Note:** you may have to set the band (`-s`) regarding your location, country. Available bands: `GSM850, GSM-R, GSM900, EGSM, DCS, PCS`
+**Note #1:** you may have to set the band (`-s`) regarding your location, country. Available bands: `GSM850, GSM-R, GSM900, EGSM, DCS, PCS`
+
+**Note #2:** you can use the stock antenna of the tuner.
 
 The output of this command should look like this:
 
@@ -46,4 +46,40 @@ The output of this command should look like this:
     	chan: 83 (951.6MHz - 24.438kHz)	power: 430946.94
     	chan: 112 (957.4MHz + 24.397kHz) power: 857829.53
     
+**Step #2** is to select the most powerful channel, and use it to calculate the PPM value: 
+> chan: **112** (957.4MHz + 24.397kHz) power: **857829.53**
 
+...so we use channel 112:
+
+    kal -g30 -c112 -v
+
+The output of this command should look like this:
+
+    $ kal -g30 -c112 -v
+    Found 1 device(s):
+      0:  Generic RTL2832U OEM
+    
+    Using device 0: Generic RTL2832U OEM
+    Found Rafael Micro R820T tuner
+    Exact sample rate is: 270833.002142 Hz
+    Setting gain: 30.0 dB
+    kal: Calculating clock frequency offset.
+    Using GSM-900 channel 112 (957.4MHz)
+    	offset   1: 24292.79
+    	offset   2: 24233.90
+    	offset   3: 24300.03
+    	offset   4: 24252.50
+    	offset   5: 24212.21
+    	offset   6: 24287.63
+    	offset   7: 24237.00
+        (...)
+    	offset  96: 24244.24
+    	offset  97: 24327.92
+    	offset  98: 24260.77
+    	offset  99: 24314.49
+    	offset 100: 24262.83
+    average		[min, max]	(range, stddev)
+    + 24.268kHz		[24218, 24319]	(100, 28.573065)
+    overruns: 0
+    not found: 0
+    average absolute error: -25.348 ppm
