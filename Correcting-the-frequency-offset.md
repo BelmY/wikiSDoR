@@ -44,6 +44,6 @@ The output of this command should look like this:
     	chan: 36 (942.2MHz + 25.174kHz)	power: 474684.41
     	chan: 60 (947.0MHz + 25.120kHz)	power: 298079.65
     	chan: 83 (951.6MHz - 24.438kHz)	power: 430946.94
-    	chan: 112 (957.4MHz + 24.397kHz)	power: 857829.53
+    	chan: 112 (957.4MHz + 24.397kHz) power: 857829.53
     
 
