@@ -1,10 +1,10 @@
-# Why is the frequency scale in OpenWebRX
+## Why is the frequency scale in OpenWebRX
 
-# If you already know the frequency offset
+## If you already know the frequency offset
 
-# Using kalibrate-rtl
+## Using kalibrate-rtl
 
-## Setting up kalibrate-rtl
+### Setting up kalibrate-rtl
 
     git clone https://github.com/steve-m/kalibrate-rtl
     cd kalibrate-rtl
