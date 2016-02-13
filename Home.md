@@ -12,3 +12,5 @@
   * [[Optimizing OpenWebRX for speed]]
   * [[Adding support for new receiver hardware]]
   * [[Using RTL-SDR in direct sampling mode with OpenWebRX]]
+  * Receiver hardware guides for OpenWebRX:
+    * [[Using OpenWebRX with an AirSpy]]
