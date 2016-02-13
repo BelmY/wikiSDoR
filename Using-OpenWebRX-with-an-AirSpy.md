@@ -21,4 +21,4 @@ Please make sure that the center frequency after the `-f` switch refers to the s
 
 If you want the 10 Msps sample rate, you should:
 * set the `-a0` switch on `airspy_rx` (instead of the `-a1`present now)
-* also set the sampling rate accordingly: `samp_rate = 10000000`
+* also change this accordingly: `samp_rate = 10000000`
