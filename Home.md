@@ -15,3 +15,5 @@
 
 * Receiver hardware guides for OpenWebRX
     * [[Using OpenWebRX with an AirSpy]]
+
+* Miscellaneous contributions
