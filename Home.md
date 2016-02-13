@@ -1,6 +1,6 @@
 ## Welcome to the OpenWebRX Wiki!
 
-* Guides
+* Guides on general topics
   * [[Common problems and their solutions]]
   * [[Setting up your router for port forwarding]]
   * [[Customizing OpenWebRX for your station]]
@@ -12,5 +12,6 @@
   * [[Optimizing OpenWebRX for speed]]
   * [[Adding support for new receiver hardware]]
   * [[Using RTL-SDR in direct sampling mode with OpenWebRX]]
-  * Receiver hardware guides for OpenWebRX:
+
+* Receiver hardware guides for OpenWebRX
     * [[Using OpenWebRX with an AirSpy]]
