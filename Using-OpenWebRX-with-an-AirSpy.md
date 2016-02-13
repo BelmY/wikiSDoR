@@ -10,7 +10,7 @@ First you should install the `airspy_rx` tool on Linux:
     sudo make install
     sudo ldconfig
 
-The next step is to make the follwoing changes to `config_webrx.py`:
+The next step is to make the following changes to `config_webrx.py`:
 
     samp_rate = 2500000
     center_freq = 144900000
