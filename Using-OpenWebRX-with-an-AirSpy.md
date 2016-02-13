@@ -19,4 +19,6 @@ The next step is to make the follwoing changes to `config_webrx.py`:
 
 Please make sure that the center frequency after the `-f` switch refers to the same (in MHz) as the `center_freq` parameter (in Hz).
 
-If you want the 10 Msps sample rate, you should set the `-a0` switch on airspy_rx, and set `samp_rate=10000000`.
+If you want the 10 Msps sample rate, you should:
+* set the `-a0` switch on `airspy_rx` (instead of the `-a1`present now)
+* also set the sampling rate accordingly: `samp_rate = 10000000`
