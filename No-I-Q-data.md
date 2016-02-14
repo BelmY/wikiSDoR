@@ -1,1 +1,0 @@
-If your receiver keeps 
