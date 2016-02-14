@@ -20,7 +20,7 @@ Double-click the **osmocom Source** block, and configure the receiver.
 * `center_freq`
 * `samp_rate`
 
-You will also have to uncomment the two relevant lines (and comment the ones for RTL-SDR):
+You will also have to uncomment the two relevant lines (and comment out the ones for RTL-SDR):
 
     # >> gr-osmosdr signal source using GNU Radio (...)
     start_rtl_command="cat osmocom_fifo"
