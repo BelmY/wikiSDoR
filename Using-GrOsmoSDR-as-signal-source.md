@@ -12,7 +12,7 @@ Make sure you have at least GNU Radio version 3.7.8.1.
 
 **Step #4:** Open [osmocom_source.grc](https://gist.githubusercontent.com/ha7ilm/19d14e1394bd2e7015e6/raw/141720f8b2b6da725fbcfc8959ee4ea4547b53a8/osmocom_source.grc) in GNU Radio Companion. 
 
-Double-click the **osmocom Source** block, and configure the receiver.
+Double-click the **osmocom Source** block, and configure the receiver. Maybe the most important field is the *Device Arguments*, which allows you to select the receiver, e.g. `rtl=0` or `hackrf=0` are valid choices among others (detailed on the *Documentation* tab).
 
 ![osmocom_source](images/osmocom_source_config.png)
 
