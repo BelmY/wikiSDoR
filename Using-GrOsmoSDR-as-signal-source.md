@@ -28,6 +28,12 @@ Make sure you have at least GNU Radio version 3.7.8.1.
 
 **Step #4:** Open [osmocom_source.grc](https://gist.githubusercontent.com/ha7ilm/19d14e1394bd2e7015e6/raw/141720f8b2b6da725fbcfc8959ee4ea4547b53a8/osmocom_source.grc) in GNU Radio Companion. 
 
+You can run GNU Radio Companion by:
+
+    gnuradio-companion
+
+...then select `File > Open` and look for the `osmocom_source.grc`.
+
 Double-click the **osmocom Source** block, and configure the receiver.
 
 Maybe *Device Arguments* is the most important field, which allows you to select the receiver, e.g. `rtl=0` or `hackrf=0` are valid choices among others (detailed on the *Documentation* tab).
@@ -48,7 +54,7 @@ You will also have to uncomment the two relevant lines (and comment out the ones
 
 > Note: next time you can just run `python osmocom_source.py` from the command-line.
 
-**Step #7:** Run OpenWebRX:
+**Step #7:** While the flowgraph in GNU Radio Companion is still running, start OpenWebRX:
 
     python openwebrx.py
 
