@@ -50,7 +50,7 @@ You will also have to uncomment the two relevant lines (and comment out the ones
     start_rtl_command="cat /tmp/osmocom_fifo"
     format_conversion=""
 
-**Step #6:** Execute the flowgraph in GNU Radio Companion (F6 or `Run > Execute`)
+**Step #6:** Execute the flowgraph in GNU Radio Companion (F6 or `Run > Execute`). This will supply the I/Q data for OpenWebRX.
 
 > Note: next time you can just run `python osmocom_source.py` from the command-line.
 
