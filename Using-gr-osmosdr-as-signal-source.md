@@ -8,7 +8,7 @@ Make sure you have at least GNU Radio version 3.7.8.1.
 
 **Step #3:** Execute the following in the OpenWebRX directory:
 
-    mkfifo osmocom_fifo
+    mkfifo /tmp/osmocom_fifo
 
 **Step #4:** Open [osmocom_source.grc](https://gist.githubusercontent.com/ha7ilm/19d14e1394bd2e7015e6/raw/141720f8b2b6da725fbcfc8959ee4ea4547b53a8/osmocom_source.grc) in GNU Radio Companion. 
 
@@ -23,7 +23,7 @@ Double-click the **osmocom Source** block, and configure the receiver.
 You will also have to uncomment the two relevant lines (and comment out the ones for RTL-SDR):
 
     # >> gr-osmosdr signal source using GNU Radio (...)
-    start_rtl_command="cat osmocom_fifo"
+    start_rtl_command="cat /tmp/osmocom_fifo"
     format_conversion=""
 
 **Step #6:** Execute the flowgraph in GNU Radio Companion (F6 or `Run > Execute`)
