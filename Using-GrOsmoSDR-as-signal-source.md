@@ -1,4 +1,4 @@
-gr-osmosdr allows you to use variety of SDR hardware with OpenWebRX, including:
+<a href="http://sdr.osmocom.org/trac/wiki/GrOsmoSDR">GrOsmoSDR</a> is a GNU Radio block, which allows you to use variety of SDR hardware with OpenWebRX, including:
 
 * FunCube Dongle
 * bladeRF
