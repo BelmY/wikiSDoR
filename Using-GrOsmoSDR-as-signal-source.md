@@ -47,8 +47,14 @@ Maybe *Device Arguments* is the most important field, which allows you to select
 You will also have to uncomment the two relevant lines (and comment out the ones for RTL-SDR):
 
     # >> gr-osmosdr signal source using GNU Radio (...)
+    #start_rtl_command="cat /tmp/osmocom_fifo"
+    #format_conversion=""
+
+Uncomment these:
+
     start_rtl_command="cat /tmp/osmocom_fifo"
     format_conversion=""
+
 
 **Step #6:** Execute the flowgraph in GNU Radio Companion (F6 or `Run > Execute`). This will supply the I/Q data for OpenWebRX.
 
