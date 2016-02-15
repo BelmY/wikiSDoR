@@ -54,7 +54,7 @@ You will also have to uncomment the two relevant lines (and comment out the ones
 
 > Note: next time you can just run `python osmocom_source.py` from the command-line.
 
-**Step #7:** While the flowgraph in GNU Radio Companion is still running, start OpenWebRX:
+**Step #7:** While the flowgraph in GNU Radio Companion is running (in the background), start OpenWebRX:
 
     python openwebrx.py
 
