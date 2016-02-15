@@ -1,3 +1,15 @@
+gr-osmosdr allows you to use variety of SDR hardware with OpenWebRX, including:
+*​ FunCube Dongle
+* bladeRF
+* ​HackRF
+* USRP
+* ​Fairwaves UmTRX
+* RFSPACE ​SDR-IQ, ​SDR-IP, ​NetSDR 
+* RTL-SDR, RTL-TCP
+* MSi2500 based DVB-T dongles 
+* ​SDRplay RSP
+* ​AirSpy 
+
 **Step #1:** You will need to install GNU Radio:
 
     sudo apt-get install gnuradio gr-osmosdr
