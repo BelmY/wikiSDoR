@@ -11,7 +11,7 @@
 * ​SDRplay RSP
 * ​AirSpy 
 
-**Step #1:** You will need to install GNU Radio:
+**Step #1:** You will need to install GNU Radio and GrOsmoSDR:
 
     sudo apt-get install gnuradio gr-osmosdr
 
