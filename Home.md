@@ -15,3 +15,4 @@
 
 * Receiver hardware guides for OpenWebRX
     * [[Using OpenWebRX with an AirSpy]]
+    * [[Using GrOsmoSDR as signal source]] (this supports many kinds of hardware including USRP, FunCube, SDR-IQ, etc.)
