@@ -6,7 +6,7 @@ Make sure you have at least GNU Radio version 3.7.8.1.
 
 **Step #2:** Download [osmocom_source.grc](https://gist.githubusercontent.com/ha7ilm/19d14e1394bd2e7015e6/raw/141720f8b2b6da725fbcfc8959ee4ea4547b53a8/osmocom_source.grc) to the OpenWebRX directory.
 
-**Step #3:** Execute the following in the OpenWebRX directory:
+**Step #3:** Execute the following:
 
     mkfifo /tmp/osmocom_fifo
 
