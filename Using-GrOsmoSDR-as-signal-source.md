@@ -50,7 +50,7 @@ You will also have to uncomment the two relevant lines (and comment out the ones
     #start_rtl_command="cat /tmp/osmocom_fifo"
     #format_conversion=""
 
-Uncomment these:
+Uncomment like this:
 
     start_rtl_command="cat /tmp/osmocom_fifo"
     format_conversion=""
