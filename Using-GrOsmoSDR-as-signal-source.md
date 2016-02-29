@@ -38,7 +38,7 @@ Double-click the **osmocom Source** block, and configure the receiver.
 
 Maybe *Device Arguments* is the most important field, which allows you to select the receiver. The format is like this: 
 
-    <receiver_type>=<receiver_id/receiver_path>
+    <receiver_type>=<receiver_id or receiver_path>
 
 * If you want to use RTL-SDR #0 (the first RTL-SDR connected), you should enter: `rtl=0`
 * If you want to use HackRF #0 (the first HackRF connected), you should enter: `hackrf=0`
