@@ -36,7 +36,15 @@ You can run GNU Radio Companion by:
 
 Double-click the **osmocom Source** block, and configure the receiver.
 
-Maybe *Device Arguments* is the most important field, which allows you to select the receiver, e.g. `rtl=0` or `hackrf=0` are valid choices among others (detailed on the *Documentation* tab).
+Maybe *Device Arguments* is the most important field, which allows you to select the receiver. The format is like this: 
+
+    <receiver_type>=<receiver_id/receiver_path>
+
+* If you want to use RTL-SDR #0 (the first RTL-SDR connected), you should enter: `rtl=0`
+* If you want to use HackRF #0 (the first HackRF connected), you should enter: `hackrf=0`
+* If you have an RFSPACE SDR-IQ on port `/dev/ttyUSB0`, then you should enter: `sdr-iq=/dev/ttyUSB0`
+
+There are many other options detailed on the *Documentation* tab.
 
 ![osmocom_source](images/osmocom_source_config.png)
 
