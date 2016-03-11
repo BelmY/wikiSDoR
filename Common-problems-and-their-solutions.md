@@ -72,7 +72,7 @@ However, as many have already asked for this feature because they want to use th
 
 Pressing Ctrl+C in the terminal should terminate OpenWebRX gracefully.
 
-If some of the subprocesses fail to terminate, you can force them to do so, but beware that this will affect **all instances of these processes running on the system**:
+> If some of the subprocesses fail to terminate, you can force them to do so, but beware that this will affect **all instances of these processes running on the system**:
 
     sudo killall -9 openwebrx rtl_mus csdr rtl_sdr
 
