@@ -67,3 +67,7 @@ If one user changed the center frequency while others were listening to somethin
 That's why you can enter a fixed `center_freq` in the config file `config_webrx.py`.
 
 However, as many have already asked for this feature because they want to use their web-based receiver on their own, it is on my roadmap to implement it.
+
+## I want to exit OpenWebRX
+
+Press Ctrl+C in the terminal.
