@@ -10,9 +10,10 @@
   * [[Additional features for the web interface]]
   * [[Setting up OpenWebRX on a Raspberry Pi 2]]
   * [[Optimizing OpenWebRX for speed]]
-  * [[Adding support for new receiver hardware]]
   * [[Using RTL-SDR in direct sampling mode with OpenWebRX]]
 
 * Receiver hardware guides for OpenWebRX
     * [[Using OpenWebRX with an AirSpy]]
+    * [[Using OpenWebRX with AFEDRI SDR]]
     * [[Using GrOsmoSDR as signal source]]<br/>(this supports many kinds of hardware including USRP, FunCube, SDR-IQ, etc.)
+    * [[Adding support for new receiver hardware]]
