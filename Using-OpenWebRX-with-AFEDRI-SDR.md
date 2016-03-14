@@ -22,4 +22,4 @@ start_rtl_command="sdr_split -O -s{samp_rate} -f{center_freq}".format(rf_gain=rf
 format_conversion="csdr convert_s16_f"
 ```
 
-Thanks for <a href="http://www.afedri-sdr.com/index.php/downloads/category/24-source-code-directory?download=217:experimental-openwebrx-for-afedrisdr">this experimental version of OpenWebRX</a> to Alex, 4Z5LV.
+Thanks for <a href="http://www.afedri-sdr.com/index.php/downloads/category/24-source-code-directory?download=217:experimental-openwebrx-for-afedrisdr">this experimental version of OpenWebRX</a> to Alex, 4Z5LV. (In addition, with the information on this page you should be able to use a recent version of OpenWebRX as well.)
