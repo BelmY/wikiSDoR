@@ -4,22 +4,23 @@ It is quite the same while handling the receiver hardware: to acquire the I/Q sa
 
 If your receiver hardware is not supported yet, you will definitely need to edit `config_webrx.py`. Take a look at these lines:
 
-    start_rtl_command="rtl_sdr -s {samp_rate} -f {center_freq} -p {ppm} - | nc -vvl 127.0.0.1 8888".format(rf_gain=rf_gain, center_freq=center_freq, samp_rate=samp_rate, ppm=ppm)
+    start_rtl_command="rtl_sdr -s {samp_rate} -f {center_freq} -p {ppm} -".format(rf_gain=rf_gain, center_freq=center_freq, samp_rate=samp_rate, ppm=ppm)
     format_conversion="csdr convert_u8_f"
 
 Notice that the command to be run by OpenWebRX is something like:
 
-    rtl_sdr (...) - | nc -l localhost 8888
+    rtl_sdr (...) -
 
 The `rtl_sdr` tool is called with various commandline parameters, which are substituted from other settings (like center frequency, sampling rate, PPM).
 
 Then the `-` at the end says that `rtl_sdr` should output the samples **to the standard output instead of a file**, from where it is piped into `nc` (netcat), which implements a simple TCP server while started with `-l`.
 
-There is another important setting: `format_conversion` will tell OpenWebRX that the RTL-SDR outputs 8-bit unsigned samples. We have to convert these to 32-bit floating point samples in order to precess them with `csdr`. The available conversion options are listed on the [csdr project page](https://github.com/simonyiszk/csdr#data-types).
+There is another important setting: `format_conversion` will tell OpenWebRX that the RTL-SDR outputs 8-bit unsigned samples. We have to convert these to 32-bit floating point samples in order to precess them with `csdr`. The available conversion options are listed on the [csdr project page](https://github.com/simonyiszk/csdr#data-types). As a quick reference, you can use:
 
-The `nc` (netcat) just listens on TCP port 8888. Soon the next component that distributes I/Q data (`rtl_mus` or `ncat` in the version that is under development) connects to it, and takes the I/Q data. 
+* `csdr convert_s16_f` for receivers that output signed 16-bit data type (AFEDRI SDR, Softrock, etc.),
+* `csdr convert_s8_f` for receivers that output signed 8-bit data type (HackRF).
 
-To understand how and where does data go within OpenWebRX, there is a graph in the [thesis paper](http://openwebrx.org/bsc-thesis.pdf) on page 29.
+(To understand how and where does data go within OpenWebRX, there is a graph in the [thesis paper](http://openwebrx.org/bsc-thesis.pdf#page=29).)
 
 ## Testing
 
@@ -32,16 +33,14 @@ If this does work, you can pipe your I/Q data into `nc`.
 
 ## Conclusion
 
-You can easily add support for other receiver hardware, if:
-* it has a commandline tool that can output I/Q samples to the standard output,
-* it has a commandline tool that can listen on a TCP port, and then send the raw stream of I/Q samples through it if someone connects. 
+You can easily add support for other receiver hardware, if it has a commandline tool that can output I/Q samples to the standard output.
 
 ## Remember
 
 ...to set receiver parameters correctly. Let's say, you own a brand new product called WhateverSDR, which outputs 16-bit I/Q samples at a fixed rate of 200000 sps, from the 2-meter band (145 MHz). It has a commandline tool called `whatever_sdr`, but it doesn't let you set the sampling rate. Then you would do this:
 
-    start_rtl_command="whatever_sdr - | nc -l 127.0.0.1 8888"
-    format_conversion="csdr convert_i16_f"
+    start_rtl_command="whatever_sdr -"
+    format_conversion="csdr convert_s16_f"
 
 Still you have to set the `samp_rate = 200000` and `center_freq = 145000000` so that OpenWebRX would know what to write on the frequency scale, and what to expect while processing the I/Q data.
 
