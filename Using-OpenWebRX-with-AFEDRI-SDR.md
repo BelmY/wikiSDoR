@@ -1,7 +1,6 @@
 You should create a script in the OpenWebRX directory to run `sdr_commander` to initialize the receiver, and then run OpenWebRX.
 
 **start_afedri.sh:**
-
 ```
 #!/bin/bash
 SAMPLE_RATE=1536000
@@ -18,7 +17,7 @@ In `config_webrx.py`, you should change these settings:
 ```
 samp_rate = 192000
 center_freq = 7080000
-start_rtl_command="sdr_split -O -s{samp_rate} -f{center_freq}".format(rf_gain=rf_gain, center_freq=center_freq, samp_rate=samp_rate) 
+start_rtl_command="sdr_split -i192.168.0.8 -u50000 -O -s{samp_rate} -f{center_freq}".format(rf_gain=rf_gain, center_freq=center_freq, samp_rate=samp_rate) 
 format_conversion="csdr convert_s16_f"
 ```
 
