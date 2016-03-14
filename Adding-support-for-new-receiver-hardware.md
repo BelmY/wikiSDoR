@@ -40,4 +40,4 @@ It works if you see a bunch of hexadecimal data:
     start_rtl_command="whatever_sdr -"
     format_conversion="csdr convert_s16_f"
 
-Still you have to set the `samp_rate = 200000` and `center_freq = 145000000` in `config_webrx.py` so that OpenWebRX would know what to write on the frequency scale, and what to expect while processing the I/Q data.
+Still you have to set the `samp_rate = 200000` and `center_freq = 145000000` in `config_webrx.py`, so that OpenWebRX would know what to write on the frequency scale, and what to expect while processing the I/Q data.
