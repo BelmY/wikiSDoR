@@ -9,7 +9,9 @@ While running OpenWebRX in Google Chrome, open the *Developer Tools* with `Ctrl 
 
 Enter the following line into the Console:
 
-    waterfall_measure_minmax = true;
+```javascript
+waterfall_measure_minmax = true;
+```
 
 Then wait for the messages to appear, something like:  
 
