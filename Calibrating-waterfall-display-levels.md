@@ -13,6 +13,8 @@ Enter the following line into the Console:
 waterfall_measure_minmax = true;
 ```
 
+!(Waterfall: Developer Tools)[images/waterfall_developer_tools.png]
+
 Then wait for the messages to appear, something like:  
 
     Waterfall | min = -102.54000091552734 dB | max = -50.209999084472656 dB
