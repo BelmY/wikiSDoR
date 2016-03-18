@@ -10,6 +10,7 @@
   * [[Additional features for the web interface]]
   * [[Setting up OpenWebRX on a Raspberry Pi 2]]
   * [[Optimizing OpenWebRX for speed]]
+  * [[Calibrating waterfall display levels]]
 
 * Receiver hardware guides for OpenWebRX
     * [[Using RTL-SDR in direct sampling mode with OpenWebRX]]
