@@ -12,8 +12,7 @@ Enter the following line into the Console:
 ```javascript
 waterfall_measure_minmax = true;
 ```
-
-!(Developer Tools)[images/waterfall_developer_tools.png]
+![Developer Tools](images/waterfall_developer_tools.png)
 
 Then wait for the messages to appear, something like:  
 
@@ -24,5 +23,4 @@ It will show the highest and the lowest peak detected in the spectrum, from the 
 These may give a clue about the values to set in order to see the whole range of colors on the waterfall diagram.
 
 > **Note:** if there are no strong signals in the spectrum while doing this measurement, the max. level will not be correct. It is advised to set it around 0, anyway.
-
 
