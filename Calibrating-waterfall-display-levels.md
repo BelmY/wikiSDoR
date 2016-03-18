@@ -13,7 +13,7 @@ Enter the following line into the Console:
 waterfall_measure_minmax = true;
 ```
 
-!(Waterfall: Developer Tools)[images/waterfall_developer_tools.png]
+!(Developer Tools)[images/waterfall_developer_tools.png]
 
 Then wait for the messages to appear, something like:  
 
