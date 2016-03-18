@@ -19,7 +19,7 @@ Then wait for the messages to appear, something like:
 
 It will show the highest and the lowest peak detected in the spectrum, from the beginning.
 
-These may give a clue about the values to set in order to use the whole range of colors.
+These may give a clue about the values to set in order to see the whole range of colors on the waterfall diagram.
 
 > **Note:** if there are no strong signals in the spectrum while doing this measurement, the max. level will not be correct. It is advised to set it around 0, anyway.
 
