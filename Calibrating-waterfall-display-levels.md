@@ -1,5 +1,5 @@
 In `config_webrx.py`, there are settings related to the waterfall diagram.
-```
+```python
 waterfall_min_level = -115 #in dB
 waterfall_max_level = 0
 ```
