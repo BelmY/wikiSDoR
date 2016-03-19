@@ -1,4 +1,4 @@
-A workaround for this is to convert the real signal into a complex signal, as the DDC routines currently only work for complex input signals. 
+A workaround for this is to convert the real signal into a complex signal, as the DDC routines currently only work for complex input signals. This is no problem as most SDRs are based on quadrature downconversion. 
 
 In this example, we are using an audio card as a VLF SDR:
 
