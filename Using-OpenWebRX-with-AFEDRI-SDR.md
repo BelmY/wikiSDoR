@@ -3,7 +3,7 @@ You should create a script in the OpenWebRX directory to run `sdr_commander` to 
 **start_afedri.sh:**
 ```
 #!/bin/bash
-SAMPLE_RATE=1536000
+SAMPLE_RATE=192000
 GAIN=17
 FREQUENCY=7100000
 ./sdr_commander  -t192.168.0.8 -sn$SAMPLE_RATE -g$GAIN -q0
