@@ -78,7 +78,7 @@ Pressing Ctrl+C in the terminal should terminate OpenWebRX gracefully.
 
 ## I have compiled FFTW myself, but csdr fails to link to it
 
-If you get error messages like this:
+If you get GCC error messages like this, when attempting to compile `csdr`:
 
     undefined reference to `fftwf_malloc'
 
