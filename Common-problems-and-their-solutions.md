@@ -76,3 +76,16 @@ Pressing Ctrl+C in the terminal should terminate OpenWebRX gracefully.
 
     sudo killall -9 openwebrx rtl_mus csdr rtl_sdr
 
+## I have compiled FFTW myself, but csdr fails to link to it
+
+If you get error messages like this:
+
+    undefined reference to `fftwf_malloc'
+
+...then you should recompile FFTW with the `--enable-float` option given at the configure stage.
+```
+./configure --enable-float
+make
+sudo make install
+```
+Then compile `csdr` again.
