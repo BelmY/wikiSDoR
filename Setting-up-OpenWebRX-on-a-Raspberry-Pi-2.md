@@ -2,11 +2,11 @@ OpenWebRX should work out of the box on your RPi, if you set it up by [going thr
 
 You will need at least a **Raspberry Pi 2**.
 
-> As noted by Zsolt, HG2ECZ the Raspberry Pi 3 can limit the CPU frequency if the power supply cannot supply enough current. It may result in decreased signal processing speed! Having a correct power supply is insufficient for running OpenWebRX. An **5V, 2A** unit (or better) should do.
-
 **Raspberry Pi 1 won't work** as its CPU just doesn't have enough processing capability to make it.
 
 (`csdr` can make use of both NEON and the multiple cores on the RPi2).
+
+> As noted by Zsolt, HG2ECZ the Raspberry Pi 3 can limit the CPU frequency if the power supply cannot supply enough current. It may result in decreased signal processing speed! Having a correct power supply is insufficient for running OpenWebRX. An **5V, 2A** unit (or better) should do.
 
 ## Common issues with the RPi 2
 
