@@ -6,7 +6,7 @@ You will need at least a **Raspberry Pi 2**.
 
 (`csdr` can make use of both NEON and the multiple cores on the RPi2).
 
-> As noted by Zsolt, HG2ECZ the Raspberry Pi 3 can limit the CPU frequency if the power supply cannot supply enough current. It may result in decreased signal processing speed! Having a correct power supply is insufficient for running OpenWebRX. An **5V, 2A** unit (or better) should do.
+> As noted by Zsolt, HG2ECZ the Raspberry Pi 3 can limit the CPU frequency if the maximum available current of the power supply is too low, which may result in decreased signal processing speed. Having a correct power supply is necessary for running OpenWebRX. An **5V, 2A** unit (or better) should do.
 
 ## Common issues with the RPi 2
 
