@@ -1,4 +1,4 @@
-Setup Nginx for HTTPS, then use it as a reverse proxy.
+Setup Nginx for HTTPS on the same host, then use it as a reverse proxy.
 
 Sample configuration:
 ```
