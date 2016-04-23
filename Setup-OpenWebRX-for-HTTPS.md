@@ -16,7 +16,7 @@ location /openwebrx/ {
 
 In `htdocs/openwebrx.js` and `openwebrx.py`, replace any `ws://` with `wss://`.
 
-In `config_webrx.py`:
+In `config_webrx.py`, set:
 
     server_hostname="nginx-host.example.com/openwebrx/"
 
