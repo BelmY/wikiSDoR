@@ -16,6 +16,10 @@ location /openwebrx/ {
 
 In `htdocs/openwebrx.js` and `openwebrx.py`, replace any `ws://` with `wss://`.
 
+In `config_webrx.py`:
+
+    server_hostname="nginx-host.example.com/openwebrx/"
+
 Disable access to port 8073 with `iptables` so that clients can only connect over HTTPS.
 
 > This information was originally shared by Benjamin, HB3YIW. Thanks for that!
