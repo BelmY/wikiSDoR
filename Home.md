@@ -11,7 +11,7 @@
   * [[Setting up OpenWebRX on a Raspberry Pi 2]]
   * [[Optimizing OpenWebRX for speed]]
   * [[Calibrating waterfall display levels]]
-  * [[Setup OpenWebRX for HTTPS]]
+  * [[Setup OpenWebRX for HTTPS]] (via Nginx as reverse proxy)
 
 * Receiver hardware guides for OpenWebRX
     * [[Using RTL-SDR in direct sampling mode with OpenWebRX]]
