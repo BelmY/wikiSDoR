@@ -8,7 +8,7 @@ Edit `config_webrx.py`:
 
 Also set `center_freq` correctly.
 
-You cannot control FiFi SDR from within OpenWebRX. Use the `rockprog` tool to set the receiver parameters. It can be found here:
+You cannot control FiFi SDR from within OpenWebRX. Use the `rockprog` tool to set the receiver parameters (like center frequency). It can be found here:
 
 http://o28.sischa.net/fifisdr/trac/wiki/De:rockprog
 
