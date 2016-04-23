@@ -1,6 +1,6 @@
 Setup Nginx for HTTPS on the same host, then use it as a reverse proxy.
 
-Sample configuration:
+Sample Nginx configuration:
 ```
 location /openwebrx/ {
     proxy_pass http://127.0.0.1:8073/;
