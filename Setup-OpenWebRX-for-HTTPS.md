@@ -22,4 +22,4 @@ In `config_webrx.py`:
 
 Disable access to port 8073 with `iptables` so that clients can only connect over HTTPS.
 
-> This information was originally shared by Benjamin, HB3YIW. Thanks for that!
+> This information was shared by Benjamin, HB3YIW. Thanks for that!
