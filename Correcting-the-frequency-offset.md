@@ -1,6 +1,6 @@
-## Why is the frequency scale in OpenWebRX
-
 ## If you already know the frequency offset
+
+TBD
 
 ## Using kalibrate-rtl
 
