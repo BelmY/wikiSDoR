@@ -17,7 +17,7 @@
     * [[Using RTL-SDR in direct sampling mode with OpenWebRX]]
     * [[Using OpenWebRX with an AirSpy]]
     * [[Using OpenWebRX with AFEDRI SDR]]
-    * [[Using OpenWebRX with HPSDR]]
+    * (Using OpenWebRX with HPSDR)[http://blog.sdr.hu/2016/06/23/hpsdrtool.html]
     * [[Using OpenWebRX with FiFi SDR]]
     * [[Using GrOsmoSDR as signal source]]<br/>(this supports many kinds of hardware including USRP, FunCube, SDR-IQ, etc.)
     * [[Using OpenWebRX with the audio card as a VLF receiver]]
