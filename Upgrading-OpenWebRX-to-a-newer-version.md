@@ -18,7 +18,7 @@ The clean way to upgrade OpenWebRX is to clone the git repository again, and edi
     nano config_webrx.py
     python2 ./openwebrx.py
 
-**The following sequence of commands might upgrade your current OpenWebRX instance very fast, but there is also a chance that it will screw up your config file, so you should start by making a backup.**
+However, there is another way: **the following sequence of commands might upgrade your current OpenWebRX instance very fast, but there is also a chance that it will screw up your config file, so you should start by making a backup.**
 
     cd openwebrx
     git status #continue only if you did not modify anything else that config_webrx.py
