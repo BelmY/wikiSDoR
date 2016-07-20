@@ -1,6 +1,6 @@
 > The instructions provided here to upgrade OpenWebRX and csdr will only work if the only file you modified in openwebrx and csdr directories is `config_webrx.py`. 
 
-## If you encounter any problems after the fast upgrade detailed here, please do a clean install of the new versions of both csdr and OpenWebRX
+## If you encounter any problems after the fast upgrade detailed here, please do a clean install of the new versions of both csdr and OpenWebRX.
 
 When upgrading OpenWebRX, first upgrade csdr:
 
