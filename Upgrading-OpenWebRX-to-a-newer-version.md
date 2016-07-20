@@ -37,6 +37,8 @@ After that, you should check your config file manually:
 
     less config_webrx.py
 
+There should be **no duplicate entries** (the last one will be valid).
+
 If git failed to merge your changes to the new config file, you should manually edit the new config file to copy the correct settings from the old one. You can find the old config file at:
 
     less config_webrx.py.bak
