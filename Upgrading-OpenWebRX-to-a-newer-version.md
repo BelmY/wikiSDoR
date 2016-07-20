@@ -24,7 +24,7 @@ cd openwebrx
 
 git status
 # This lists the changes you made under this directory.
-# From here, you should continue only if you see that only config_webrx.py is modified.
+# If anything else than config_webrx.py is modified, you should do a clean reinstall of OpenWebRX.
 
 cp config_webrx.py config_webrx.py.bak      
 # Made a backup of the config!
