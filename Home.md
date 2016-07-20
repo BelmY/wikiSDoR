@@ -12,7 +12,7 @@
   * [[Optimizing OpenWebRX for speed]]
   * [[Calibrating waterfall display levels]]
   * [[Setup OpenWebRX for HTTPS]] (via Nginx as reverse proxy)
-  * [[Updating OpenWebRX]]
+  * [[Upgrading OpenWebRX to a newer version]]
 
 * Receiver hardware guides for OpenWebRX
     * [[Using RTL-SDR in direct sampling mode with OpenWebRX]]
