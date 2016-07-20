@@ -8,7 +8,7 @@ When upgrading OpenWebRX, first upgrade csdr:
 
 Only the corresponding (latest) versions of OpenWebRX and csdr will work together.
 
-The OpenWebRX git repository also contains the default config file `config_webrx.py`.
+The OpenWebRX git repository contains the default configuration file `config_webrx.py` along with the software.
 In newer versions of OpenWebRX, the configuration options might change, which makes the upgrade harder to do automatically. 
 
 The clean way to upgrade OpenWebRX is to clone the git repository again, and edit `config_webrx.py` manually:
