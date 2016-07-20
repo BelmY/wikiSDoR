@@ -23,7 +23,8 @@ However, there is another way as well: **the following sequence of commands migh
 cd openwebrx
 
 git status
-# From here, you should continue only if you see that you did not modify anything else than config_webrx.py
+# This lists the changes you made under this directory.
+# From here, you should continue only if you see that only config_webrx.py is modified.
 
 cp config_webrx.py config_webrx.py.bak      
 # Made a backup of the config!
