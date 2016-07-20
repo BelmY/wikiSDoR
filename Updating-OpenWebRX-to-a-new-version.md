@@ -6,7 +6,7 @@ When upgrading OpenWebRX, first upgrade csdr:
     git pull 
     make && sudo make install
 
-Only the corresponding (latest) versions of OpenWebRX and csdr will work.
+Only the corresponding (latest) versions of OpenWebRX and csdr will work together.
 
 The OpenWebRX git repository also contains the default config file `config_webrx.py`.
 In newer versions of OpenWebRX, the configuration options might change, which makes the upgrade harder to do automatically. 
