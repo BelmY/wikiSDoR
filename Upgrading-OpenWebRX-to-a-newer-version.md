@@ -41,13 +41,12 @@ git pull
 
 git stash pop 
 # This tries to apply your changes to the current config file.
+
+less config_webrx.py
+# Now check your config file manually!
+# There should be no duplicate entries (the last one would be valid).
+# Also if there are any deeper changes in OpenWebRX, you might have to fallback to a new, clean install.
 ```
-
-After that, you should check your config file manually:
-
-    less config_webrx.py
-
-There should be **no duplicate entries** (the last one will be valid).
 
 If git failed to merge your changes to the new config file, you should manually edit the new config file to copy the correct settings from the old one. You can find the old config file at:
 
