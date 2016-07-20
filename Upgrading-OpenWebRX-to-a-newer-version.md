@@ -1,5 +1,7 @@
 > The instructions provided here to upgrade OpenWebRX and csdr will only work if the only file you modified in openwebrx and csdr directories is `config_webrx.py`. 
 
+## If you encounter any problems after the fast upgrade detailed here, please do a clean install of the new versions of both csdr and OpenWebRX
+
 When upgrading OpenWebRX, first upgrade csdr:
 
 ```bash
@@ -13,16 +15,9 @@ Only the corresponding (latest) versions of OpenWebRX and csdr will work togethe
 The OpenWebRX git repository contains the default configuration file `config_webrx.py` along with the software.
 In newer versions of OpenWebRX, the configuration options might change, which makes the upgrade harder to do automatically. 
 
-The clean way to upgrade OpenWebRX is to clone the git repository again, and copy your changes from the old `config_webrx.py` to the new one manually:
+The clean way to upgrade OpenWebRX is to clone the git repository again, and copy your changes from the old `config_webrx.py` to the new one manually.
 
-```bash
-git clone https://github.com/simonyiszk/openwebrx new_openwebrx     # new_openwebrx will be the destination
-cd new_openwebrx
-nano config_webrx.py
-python2 ./openwebrx.py
-```
-
-However, there is another way: **the following sequence of commands might upgrade your current OpenWebRX instance very fast, but there is also a chance that your config file will be screwed up, so you should start by making a backup.**
+However, there is another way as well: **the following sequence of commands might upgrade your current OpenWebRX instance very fast, but there is also a chance that your config file will be screwed up, so you should start by making a backup.**
 
 ```bash
 cd openwebrx
