@@ -13,11 +13,11 @@ Only the corresponding (latest) versions of OpenWebRX and csdr will work togethe
 The OpenWebRX git repository contains the default configuration file `config_webrx.py` along with the software.
 In newer versions of OpenWebRX, the configuration options might change, which makes the upgrade harder to do automatically. 
 
-The clean way to upgrade OpenWebRX is to clone the git repository again, and edit `config_webrx.py` manually:
+The clean way to upgrade OpenWebRX is to clone the git repository again, and copy your changes from the old `config_webrx.py` to the new one manually:
 
 ```bash
-git clone https://github.com/simonyiszk/openwebrx 
-cd openwebrx
+git clone https://github.com/simonyiszk/openwebrx new_openwebrx     # new_openwebrx will be the destination
+cd new_openwebrx
 nano config_webrx.py
 python2 ./openwebrx.py
 ```
@@ -26,11 +26,21 @@ However, there is another way: **the following sequence of commands might upgrad
 
 ```bash
 cd openwebrx
-git status #continue only if you did not modify anything else that config_webrx.py
-cp config_webrx.py config_webrx.py.bak
-git stash #this puts your changes to config_webrx.py on the "stack" of the git version control system
+
+git status
+# From here, you should continue only if you see that you did not modify anything else than config_webrx.py
+
+cp config_webrx.py config_webrx.py.bak      
+# Made a backup of the config!
+
+git stash 
+#This puts your changes to config_webrx.py on the "stack" of the git version control system.
+
 git pull
-git stash pop #this applies your changes to the current config
+# This tries to download the new version from GitHub.
+
+git stash pop 
+# This tries to apply your changes to the current config file.
 ```
 
 After that, you should check your config file manually:
