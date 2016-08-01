@@ -1,10 +1,8 @@
-Any signals will appear at a higher frequency if you use an upconverter. 
+Your upconverter adds a frequency offset to any signal.
 
 ![Upconverter](images/upconverter.png)
 
-Your upconverter adds a frequency offset to any signal that you want to receive.
-
-However, we have to correct the frequency scale to show the original frequency of the signal, before upconversion.
+That's why we have to correct the frequency scale to show the original frequency of the signal.
 
 You will have to alter the following two values in `config_webrx.py`:
 
