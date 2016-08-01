@@ -16,6 +16,7 @@
 
 * Receiver hardware guides for OpenWebRX
     * [[Using RTL-SDR in direct sampling mode with OpenWebRX]]
+    * [[Using RTL-SDR on HF with an upconverter]]
     * [[Using OpenWebRX with an AirSpy]]
     * [[Using OpenWebRX with AFEDRI SDR]]
     * [Using OpenWebRX with HPSDR](http://blog.sdr.hu/2016/06/23/hpsdrtool.html)
