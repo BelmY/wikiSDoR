@@ -17,7 +17,7 @@ center_freq = 134500000 # = 14500000+120000000, this is where the center of the 
 show_center_freq = 14500000 # this is what will be the center of the scale on the UI
 ```
 
-Another way to configure this is to give the 120 MHz shift the following way:
+Another way to configure this is to give the 120 MHz frequency offset the following way:
 ```
 samp_rate = 1024000
 center_freq = 134500000
