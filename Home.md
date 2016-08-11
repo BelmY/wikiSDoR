@@ -22,6 +22,7 @@
     * [[Using OpenWebRX with AFEDRI SDR]]
     * [Using OpenWebRX with HPSDR](http://blog.sdr.hu/2016/06/23/hpsdrtool.html)
     * [[Using OpenWebRX with FiFi SDR]]
+    * [[Using OpenWebRX with SDRPlay]]
     * [[Using GrOsmoSDR as signal source]]<br/>(this supports many kinds of hardware including USRP, FunCube, SDR-IQ, etc.)
     * [[Using OpenWebRX with the audio card as a VLF receiver]]
     * [[Adding support for new receiver hardware]]
