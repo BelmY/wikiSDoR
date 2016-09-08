@@ -16,5 +16,5 @@ The next step is to make the following changes to `config_webrx.py`:
     center_freq = 144900000
     rf_gain = 8
     bias_tee = 0
-    start_rtl_command = "airspy_rx -f{center_freq} -r /dev/stdout -a{samp_rate_switch} -g{rf_gain} -b{bias_tee}".format(bias_tee=bias_tee, rf_gain=rf_gain, center_freq=str(center_freq/1000), samp_rate_switch=(0 if samp_rate==10000000 else 1))"
+    start_rtl_command = "airspy_rx -f{center_freq} -r /dev/stdout -a{samp_rate_switch} -g{rf_gain} -b{bias_tee}".format(bias_tee=bias_tee, rf_gain=rf_gain, center_freq=str(center_freq/1000), samp_rate_switch=(0 if samp_rate==10000000 else 1))
     format_conversion = "csdr convert_s16_f"
