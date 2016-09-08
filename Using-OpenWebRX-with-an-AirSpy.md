@@ -12,13 +12,9 @@ First you should install the `airspy_rx` tool on Linux:
 
 The next step is to make the following changes to `config_webrx.py`:
 
-    samp_rate = 2500000
+    samp_rate = 2500000 #can only be 2500000 or 10000000
     center_freq = 144900000
-    start_rtl_command = "airspy_rx -f144.9 -r /dev/stdout -a1"
+    rf_gain = 8
+    bias_tee = 0
+    start_rtl_command = "airspy_rx -f{center_freq} -r /dev/stdout -a{samp_rate_switch} -g{rf_gain} -b{bias_tee}".format(bias_tee=bias_tee, rf_gain=rf_gain, center_freq=str(center_freq/1000), samp_rate_switch=(0 if samp_rate==10000000 else 1))"
     format_conversion = "csdr convert_s16_f"
-
-Please make sure that the center frequency after the `-f` switch refers to the same (in MHz) as the `center_freq` parameter (in Hz).
-
-If you want the 10 Msps sample rate, you should:
-* set the `-a0` switch on `airspy_rx` (instead of the `-a1`present now)
-* also change this accordingly: `samp_rate = 10000000`
