@@ -26,3 +26,4 @@
     * [[Using GrOsmoSDR as signal source]]<br/>(this supports many kinds of hardware including USRP, FunCube, SDR-IQ, etc.)
     * [[Using OpenWebRX with the audio card as a VLF receiver]]
     * [[Adding support for new receiver hardware]]
+    * [[Using OpenWebRX with Perseus]]
