@@ -12,6 +12,10 @@ You should try to do this before restarting OpenWebRX *(only if you don't run ot
 
     sudo killall csdr
 
+If it does not help, you could try the line below. *(It will kill all the instances of these processes, not only the ones started by OpenWebRX!)
+
+    sudo killall -9 openwebrx ncat csdr
+
 ### I'm getting a totally black waterfall diagram
 
 You have *ncat* on your system, and on some reason your RTL-SDR or other I/Q input source failed and the corresponding process exited. You will see something like:
