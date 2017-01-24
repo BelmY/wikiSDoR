@@ -1,0 +1,1 @@
+# This page is for those who would like to run a general receiver (e.g. RTL-SDR), not the KiwiSDR! For KiwiSDR related info and software, go to: http://kiwisdr.com
