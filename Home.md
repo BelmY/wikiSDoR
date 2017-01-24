@@ -14,6 +14,7 @@
   * [[Setup OpenWebRX for HTTPS]] (via Nginx as reverse proxy)
   * [[Upgrading OpenWebRX to a newer version]]
   * [[Correcting the frequency offset]]
+  * [[Running OpenWebRX on the BeagleBone]]
 
 * Receiver hardware guides for OpenWebRX
     * [[Using RTLSDR in direct sampling mode with OpenWebRX]]
