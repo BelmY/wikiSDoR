@@ -1,1 +1,3 @@
-# This page is for those who would like to run a general receiver (e.g. RTL-SDR), not the KiwiSDR! For KiwiSDR related info and software, go to: http://kiwisdr.com
+# For KiwiSDR related info and software, go to: http://kiwisdr.com
+
+The KiwiSDR software is a fork of OpenWebRX (a version with different codebase from the one to be downloaded from this repo on GitHub). 
