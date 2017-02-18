@@ -2,8 +2,10 @@ This will replay the I/Q clip in a loop.
 
 1. Record raw I/Q data with command-line tool. 
 
-    cd openwebrx
-    rtl_sdr -s250000 -f145000000 iqfile.iq
+```bash
+cd openwebrx
+rtl_sdr -s250000 -f145000000 iqfile.iq
+```
 
 2. Edit `config_webrx.py`:
 
