@@ -1,4 +1,8 @@
-The `rx_sdr` command works with a variety of SDR harware: RTL-SDR, HackRF, SDRplay, UHD, Airspy, Red Pitaya, audio devices, etc. You can find a list of [currently supported devices here](https://github.com/pothosware?utf8=%E2%9C%93&q=soapy&type=&language=).
+The `rx_sdr` command works with a variety of SDR harware: 
+
+*RTL-SDR, HackRF, SDRplay, UHD, Airspy, Red Pitaya, audio devices, etc.*
+
+You can find a list of [currently supported devices here](https://github.com/pothosware?utf8=%E2%9C%93&q=soapy&type=&language=).
 
 The `rx_sdr` command syntax is similar to the `rtl_sdr` command.
 
