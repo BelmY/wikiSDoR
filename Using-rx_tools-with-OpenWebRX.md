@@ -65,7 +65,7 @@ blacklist sdr_msi3101
 blacklist msi001
 blacklist msi2500
 ```
-...then reboot the computer.
+...then reboot the computer. ([Source of this information](http://www.sdrplay.com/community/viewtopic.php?t=1702#p5189))
 
 ## Step #3: Test the SDR device
 
