@@ -23,6 +23,7 @@ cd build
 cmake ..
 make 
 sudo make install
+sudo ldconfig
 cd ..
 
 #Installing rx_tools:
@@ -33,6 +34,7 @@ cd build
 cmake ..
 make 
 sudo make install
+sudo ldconfig
 cd ..
 ```
 
