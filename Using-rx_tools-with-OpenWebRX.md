@@ -18,6 +18,7 @@ cmake ..
 make 
 sudo make install
 cd ..
+
 #Installing rx_tools:
 git clone https://github.com/rxseger/rx_tools
 cd rx_tools
