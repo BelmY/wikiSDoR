@@ -8,7 +8,7 @@ Check out the list of [devices currently supported by SoapySDR](https://github.c
 
 The `rx_sdr` command syntax is similar to the `rtl_sdr` command.
 
-It will auto-detect your SDR hardware if the following tools are installed:
+If the `-d` switch is not given, it will auto-detect your SDR hardware if the following tools are installed:
 * the vendor provided driver and library, 
 * the vendor-specific [SoapySDR wrapper library](https://github.com/pothosware?utf8=%E2%9C%93&q=soapy&type=&language=), 
 * and [SoapySDR](https://github.com/pothosware/SoapySDR) itself.
