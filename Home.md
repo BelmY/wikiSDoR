@@ -18,7 +18,7 @@
   * [[Replay previously recorded IQ clip with OpenWebRX]]
 
 * Receiver hardware guides for OpenWebRX
-    * [[Using `rx_tools` with OpenWebRX]]<br/>(this supports many kinds of hardware including HackRF, SDRplay, UHD, Airspy, Red Pitaya, etc.)
+    * [[Using rx_tools with OpenWebRX]]<br/>(this supports many kinds of hardware including HackRF, SDRplay, UHD, Airspy, Red Pitaya, etc.)
     * [[Using RTLSDR in direct sampling mode with OpenWebRX]]
     * [[Using RTLSDR on HF with an upconverter]]
     * [[Using OpenWebRX with an AirSpy]]
