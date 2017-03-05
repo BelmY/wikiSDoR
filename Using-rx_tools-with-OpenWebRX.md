@@ -44,7 +44,8 @@ cd ..
  * [librtlsdr](https://github.com/keenerd/rtl-sdr)
  * [SoapyRTLSDR](https://github.com/pothosware/SoapyRTLSDR)
 
-## Step #3: uncomment the corresponding lines in `config_webrx.py`:
+## Step #3: Edit OpenWebRX configuration 
+Uncomment the corresponding lines in `config_webrx.py`:
 ```python
 start_rtl_command="rx_sdr -F CF32 -s {samp_rate} -f {center_freq} -p {ppm} -g {rf_gain} -".format(rf_gain=rf_gain, center_freq=center_freq, samp_rate=samp_rate, ppm=ppm)
 format_conversion=""
