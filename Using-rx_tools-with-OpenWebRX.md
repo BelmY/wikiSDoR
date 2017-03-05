@@ -82,7 +82,7 @@ This command should be able to open the SDR device and start to read it:
 ```bash
 rx_sdr - | csdr through > /dev/null
 ```
-You can terminate it with <kbd>Ctrl</kbd>+<kbd>C</kbd> or <kbd>Ctrl+<kbd>\</kbd>.
+You can terminate it by pressing <kbd>Ctrl</kbd>+<kbd>C</kbd> multiple times, or <kbd>Ctrl+<kbd>\\</kbd>.
 
 ## Step #4: Edit OpenWebRX configuration 
 Uncomment the corresponding lines in `config_webrx.py`:
