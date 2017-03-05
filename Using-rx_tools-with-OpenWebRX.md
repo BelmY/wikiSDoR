@@ -1,4 +1,4 @@
-The `rx_sdr` command works with a variety of SDR hardware: 
+The `rx_sdr` command (from the [rx_tools](https://github.com/rxseger/rx_tools) repo) works with a variety of SDR hardware: 
 
 *RTL-SDR, HackRF, SDRplay, UHD, Airspy, Red Pitaya, audio devices, etc.*
 
