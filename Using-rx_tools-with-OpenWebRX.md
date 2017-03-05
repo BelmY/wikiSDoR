@@ -50,7 +50,7 @@ Some kernel modules lock the USB device and need to be disabled before the SDR d
 
 If the kernel modules are not properly blacklisted you can get a "device not found" error. 
 
-#### RTL-SDR
+#### Blacklisting for RTL-SDR
 
 Add the file `/etc/modprobe.d/blacklist-rtlsdr.conf` with the following content:
 ```
@@ -58,7 +58,7 @@ blacklist dvb_usb_rtl28xxu
 ```
 ...then reboot the computer.
 
-#### SDRplay
+#### Blacklisting for SDRplay
 Add the file `/etc/modprobe.d/blacklist-sdrplay.conf` with the following content:
 ```
 blacklist sdr_msi3101
