@@ -52,14 +52,14 @@ If the kernel modules are not properly blacklisted you can get a "device not fou
 
 #### Blacklisting for RTL-SDR
 
-Add the file `/etc/modprobe.d/blacklist-rtlsdr.conf` with the following content:
+Create the file `/etc/modprobe.d/blacklist-rtlsdr.conf` with the following content:
 ```
 blacklist dvb_usb_rtl28xxu
 ```
 ...then reboot the computer.
 
 #### Blacklisting for SDRplay
-Add the file `/etc/modprobe.d/blacklist-sdrplay.conf` with the following content:
+Create the file `/etc/modprobe.d/blacklist-sdrplay.conf` with the following content:
 ```
 blacklist sdr_msi3101
 blacklist msi001
