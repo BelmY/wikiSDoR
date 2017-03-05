@@ -44,9 +44,50 @@ cd ..
  * [librtlsdr](https://github.com/keenerd/rtl-sdr)
  * [SoapyRTLSDR](https://github.com/pothosware/SoapyRTLSDR)
 
-## Step #3: Edit OpenWebRX configuration 
+### Kernel module blacklisting
+
+Some kernel modules lock the USB device and need to be disabled before the SDR device can be used. 
+
+If the kernel modules are not properly blacklisted you can get a "device not found" error. 
+
+#### RTL-SDR
+
+Add the file `/etc/modprobe.d/blacklist-rtlsdr.conf` with the following content:
+```
+blacklist dvb_usb_rtl28xxu
+```
+...then reboot the computer.
+
+#### SDRplay
+Add the file `/etc/modprobe.d/blacklist-sdrplay.conf` with the following content:
+```
+blacklist sdr_msi3101
+blacklist msi001
+blacklist msi2500
+```
+...then reboot the computer.
+
+## Step #3: Test the SDR device
+
+This command should correctly identify the SDR device attached to your computer:
+```bash
+SoapySDRUtil --find
+```
+
+This command should be able to open the SDR device and start to read it:
+```bash
+rx_sdr - | csdr through > /dev/null
+```
+You can terminate it with <kbd>Ctrl</kbd>+<kbd>C</kbd> or <kbd>Ctrl+<kbd>\</kbd>.
+
+## Step #4: Edit OpenWebRX configuration 
 Uncomment the corresponding lines in `config_webrx.py`:
 ```python
 start_rtl_command="rx_sdr -F CF32 -s {samp_rate} -f {center_freq} -p {ppm} -g {rf_gain} -".format(rf_gain=rf_gain, center_freq=center_freq, samp_rate=samp_rate, ppm=ppm)
 format_conversion=""
+```
+
+## Step #5: Start OpenWebRX
+```bash
+python2 openwebrx.py
 ```
