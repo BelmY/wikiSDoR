@@ -2,7 +2,7 @@ The `rx_sdr` command (from the [rx_tools](https://github.com/rxseger/rx_tools) r
 
 *RTL-SDR, HackRF, SDRplay, UHD, Airspy, Red Pitaya, audio devices, etc.*
 
-It uses the great [SoapySDR](https://github.com/pothosware/SoapySDR) library.
+It uses the great [SoapySDR](https://github.com/pothosware/SoapySDR) library to interface with the device.
 
 Check out the list of [devices currently supported by SoapySDR](https://github.com/pothosware?utf8=%E2%9C%93&q=soapy&type=&language=).
 
