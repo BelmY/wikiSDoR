@@ -15,7 +15,7 @@
   * [[Upgrading OpenWebRX to a newer version]]
   * [[Correcting the frequency offset]]
   * [[Running OpenWebRX on the BeagleBone]]
-  * [[Running OpenWebRX on an Odroid C2]]
+  * [[Running OpenWebRX on the Odroid C2]]
   * [[Replay previously recorded IQ clip with OpenWebRX]]
 
 * Receiver hardware guides for OpenWebRX
