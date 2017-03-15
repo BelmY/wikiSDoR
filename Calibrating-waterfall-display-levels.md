@@ -5,7 +5,7 @@ waterfall_max_level = 0
 ```
 Now if we see that the colors are incorrectly displayed, how do we find out the correct levels to set without trial and error?
 
-While running OpenWebRX in Google Chrome, open the *Developer Tools* with <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>J</kbd>.
+While running OpenWebRX in Google Chrome, open the *Developer Tools* with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>J</kbd>.
 
 Enter the following line into the Console:
 
