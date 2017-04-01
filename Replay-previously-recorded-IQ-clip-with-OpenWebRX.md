@@ -14,6 +14,9 @@ samp_rate=250000
 start_rtl_command="(while true; do cat iqfile.iq; done) | csdr flowcontrol {data_rate} 10 ".format(data_rate=2*samp_rate)
 format_conversion="csdr convert_u8_f"
 ```
+
+**Note:** You should especially take care that the *format* and the *sampling rate* set here should be the same as for your recorded I/Q file!
+
 ----
 
 A version that also works for 16-bit I/Q files:
