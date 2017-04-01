@@ -11,7 +11,8 @@ rtl_sdr -s250000 -f145000000 iqfile.iq
 
 ```python 
 samp_rate=250000
-start_rtl_command="(while true; do cat iqfile.iq; done) | csdr flowcontrol {data_rate} 10 ".format(data_rate=2*samp_rate)
+bytes_per_sample = 1 #should be 1 for u8/s8, 2 for s16, 4 for float
+start_rtl_command="(while true; do cat iqfile.iq; done) | csdr flowcontrol {data_rate} 10 ".format(data_rate=2*samp_rate*bytes_per_sample)
 format_conversion="csdr convert_u8_f"
 ```
 
