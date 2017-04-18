@@ -40,17 +40,17 @@ cd ..
 
 ## Step #2: install BOTH the vendor library and its SoapySDR wrapper
 * AirSpy:
- * [libairspy](https://github.com/airspy/host)
- * [SoapyAirspy](https://github.com/pothosware/SoapyAirspy)
+  * [libairspy](https://github.com/airspy/host)
+  * [SoapyAirspy](https://github.com/pothosware/SoapyAirspy)
 * HackRF:
- * [libhackrf](https://github.com/mossmann/hackrf)
- * [SoapyHackRF](https://github.com/pothosware/SoapyHackRF)
+  * [libhackrf](https://github.com/mossmann/hackrf)
+  * [SoapyHackRF](https://github.com/pothosware/SoapyHackRF)
 * SDRplay:
- * [SDRplay Linux driver](http://www.sdrplay.com/linuxdl.php)
- * [SoapySDRPlay](https://github.com/pothosware/SoapySDRPlay)
+  * [SDRplay Linux driver](http://www.sdrplay.com/linuxdl.php)
+  * [SoapySDRPlay](https://github.com/pothosware/SoapySDRPlay)
 * RTL-SDR:
- * [librtlsdr](https://github.com/keenerd/rtl-sdr)
- * [SoapyRTLSDR](https://github.com/pothosware/SoapyRTLSDR)
+  * [librtlsdr](https://github.com/keenerd/rtl-sdr)
+  * [SoapyRTLSDR](https://github.com/pothosware/SoapyRTLSDR)
 
 ### Kernel module blacklisting
 
