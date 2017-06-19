@@ -1,0 +1,3 @@
+https://www.jiangwei.org/2016/05/28/s9-c-sdr%E5%AE%BD%E9%A2%91%E6%8E%A5%E6%94%B6%E6%9C%BA-websdr%E3%80%81openwebrx%E6%94%AF%E6%8C%81%E6%8F%92%E4%BB%B6/
+
+https://github.com/jocover/s9cwebsdr
