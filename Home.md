@@ -32,3 +32,4 @@
 * [[Using OpenWebRX with the audio card as a VLF receiver]]
 * [[Adding support for new receiver hardware]]
 * [[Using OpenWebRX with Perseus]]
+* [[Using OpenWebRX with S9-C]]
