@@ -20,6 +20,7 @@
 
 ### Troubleshooting
 * [[Help! I'm getting audio underruns or overruns!]]
+* [[I'm getting a "short write" error]]
 * [[My receiver is not listed on sdr.hu]]
 
 ### Guides for receiver hardware support
