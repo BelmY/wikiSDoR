@@ -1,4 +1,4 @@
-This is usually an error with the RTL-SDR, not OpenWebRX.
+This is usually an error related to the RTL-SDR, not OpenWebRX.
 
 The steps to debug are the following:
 
