@@ -20,7 +20,7 @@ Otherwise, you could also check if the registration works by running the followi
 
 Even though you get an `Update succeeded!` on the console, the listing can fail when the sdr.hu gets your receiver info a few minutes later.
 
-* Your receiver cannot be reached from the Internet. Please follow the guide related to [Setting-up-your-router-for-port-forwarding|port forwarding]. E.g. you can use this service to check if your receiver is reachable from the outside: https://isitup.org/ Just paste the **full** URL (including port number, e.g. `http://rx.example.com:8073/`) into the box on the page, and press return.
+* Your receiver cannot be reached from the Internet. Please follow the guide about [port forwarding](https://github.com/simonyiszk/openwebrx/wiki/Setting-up-your-router-for-port-forwarding). E.g. you can use this service to check if your receiver is reachable from the outside: https://isitup.org/ Just paste the **full** URL (including port number, e.g. `http://rx.example.com:8073/`) into the box on the page, and press return.
 
 * Your avatar is larger than 10 KiB. 
 * Your avatar is not a vaild PNG file.
