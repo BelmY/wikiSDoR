@@ -2,7 +2,6 @@
 
 ###  Guides on general topics
 
-* [[Common problems and their solutions]]
 * [[Setting up your router for port forwarding]]
 * [[Customizing OpenWebRX for your station]]
 * [[Running OpenWebRX on system startup]]
@@ -19,9 +18,11 @@
 * [[Replay previously recorded IQ clip with OpenWebRX]]
 
 ### Troubleshooting
+* [[Common problems and their solutions]]
+* [[My receiver is not listed on sdr.hu]]
 * [[Help! I'm getting audio underruns or overruns!]]
 * [[I'm getting a "short write" error]]
-* [[My receiver is not listed on sdr.hu]]
+
 
 ### Guides for receiver hardware support
 * [[Using SoapySDR via rx_tools with OpenWebRX]]<br/>(this supports many hardware including HackRF, SDRplay, UHD, Airspy, Red Pitaya, etc.)
