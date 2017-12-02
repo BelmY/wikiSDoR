@@ -6,7 +6,7 @@ Otherwise, you could also check if the registration works by running the followi
 
 (If OpenWebRX is not running in the background, this will not result in the receiver to be listed.)
 
-> Please allow a few minutes for the sdr.hu server to update your receiver status on the site. Usually it takes around 3 minutes, but to be sure, please check it rather 10 minutes later.
+> After getting an `Update succeeded!`, please allow a few minutes for the sdr.hu server to update your receiver status on the site. Usually it takes around 3 minutes, but to be sure, please check it rather 10 minutes later.
 
 ### How does sdr.hu listing work?
 
