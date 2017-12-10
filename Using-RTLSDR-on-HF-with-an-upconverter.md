@@ -23,3 +23,7 @@ samp_rate = 1024000
 center_freq = 134500000
 shown_center_freq = center_freq - 120000000
 ```
+
+## Troubleshooting
+
+If the show center frequency is not changed in the UI, don't forget to remove the default value for `shown_center_freq` that is later in the config file. 
