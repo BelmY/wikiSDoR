@@ -26,4 +26,4 @@ shown_center_freq = center_freq - 120000000
 
 ## Troubleshooting
 
-If the show center frequency is not changed in the UI, don't forget to remove the default value,  `shown_center_freq = center_freq` that is later in the config file. 
+If the shown center frequency is not changed in the UI, don't forget to remove the default value,  `shown_center_freq = center_freq` that is later in the config file. 
