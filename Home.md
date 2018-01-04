@@ -38,3 +38,4 @@
 * [[Adding support for new receiver hardware]]
 * [[Using OpenWebRX with Perseus]]
 * [[Using OpenWebRX with S9-C]]
+* [[Using OpenWebRX with Elad receivers]]
