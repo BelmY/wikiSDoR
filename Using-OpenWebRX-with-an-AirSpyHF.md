@@ -12,7 +12,7 @@ Also mind your start_rtl_command accordingly
 
 > start_rtl_command = "/path/to/airspyhf_rx -f{cf} -r /dev/stdout".format(cf=cf)
 
-and of cource your samplerate would be 768000
+and of course your samplerate would be 768000
 
 Enjoy!
 
