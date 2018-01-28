@@ -29,7 +29,7 @@
 * [[Using RTLSDR in direct sampling mode with OpenWebRX]]
 * [[Using RTLSDR on HF with an upconverter]]
 * [[Using OpenWebRX with an AirSpy]]
-* [[Using OpenWebRX with an AirSpyHF+]]
+* [[Using OpenWebRX with an AirSpyHF]]
 * [[Using OpenWebRX with AFEDRI SDR]]
 * [Using OpenWebRX with HPSDR](http://blog.sdr.hu/2016/06/23/hpsdrtool.html)
 * [[Using OpenWebRX with FiFi SDR]]
