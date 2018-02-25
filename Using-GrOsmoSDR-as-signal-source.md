@@ -11,13 +11,13 @@
 * ​SDRplay RSP
 * ​AirSpy 
 
-> :green_book: Since writing this article, a tool called `osmocat.py` has been released, which claims to do the same: https://github.com/roseengineering/osmocat
-
 **Step #1:** You will need to install GNU Radio and GrOsmoSDR:
 
     sudo apt-get install gnuradio gr-osmosdr
 
 Make sure you have at least GNU Radio version 3.7.8.1.
+
+> :green_book: Since writing this article, a tool called `osmocat.py` has been released, which claims to do the same as steps #2-#6 below: https://github.com/roseengineering/osmocat 
 
 **Step #2:** Download [osmocom_source.grc](https://gist.githubusercontent.com/ha7ilm/19d14e1394bd2e7015e6/raw/141720f8b2b6da725fbcfc8959ee4ea4547b53a8/osmocom_source.grc) to the OpenWebRX directory.
 
