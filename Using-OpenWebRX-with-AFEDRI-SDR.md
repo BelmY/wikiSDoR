@@ -27,8 +27,10 @@ format_conversion="csdr convert_s16_f"
 
 3. Run `start_afedri.sh` that will also start OpenWebRX:
 
-
-    bash start_afedri.sh
+```bash
+chmod +x start_afedri.sh
+./start_afedri.sh
+```
 
 ----
 
