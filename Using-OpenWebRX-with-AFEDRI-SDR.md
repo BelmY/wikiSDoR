@@ -4,7 +4,7 @@ http://www.afedri-sdr.com/index.php/downloads/category/15-sdr-commander-command-
 
 2. You should create a script in the OpenWebRX directory to run `sdr_commander` to initialize the receiver.
 
-**start_afedri.sh:**
+**`start_afedri.sh` contents:**
 ```
 #!/bin/bash
 SAMPLE_RATE=192000
