@@ -2,7 +2,7 @@
 
 http://www.afedri-sdr.com/index.php/downloads/category/15-sdr-commander-command-shell-utility
 
-1. You should create a script in the OpenWebRX directory to run `sdr_commander` to initialize the receiver.
+2. You should create a script in the OpenWebRX directory to run `sdr_commander` to initialize the receiver.
 
 **start_afedri.sh:**
 ```
@@ -25,7 +25,7 @@ start_rtl_command="sdr_split -i192.168.0.8 -u50000 -O -s{samp_rate} -f{center_fr
 format_conversion="csdr convert_s16_f"
 ```
 
-1. Run `start_afedri.sh` that will also start OpenWebRX:
+3. Run `start_afedri.sh` that will also start OpenWebRX:
 
     bash start_afedri.sh
 
