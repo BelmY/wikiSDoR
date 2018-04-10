@@ -22,6 +22,8 @@ You can try several things:
 
 For some [[benchmarks|Benchmarks]] please see this page.
 
+See also [[Optimizing OpenWebRX for speed]].
+
 ### Internal buffering problem within OpenWebRX
 If nothing helps, you can try to increase the `client_audio_buffer_size` in `config_webrx.py`.
 
