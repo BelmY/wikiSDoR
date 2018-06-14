@@ -11,4 +11,4 @@ Right now it is only possible to do if multiple instances of OpenWebRX are start
 
 3. Please note the following:
   * You can use the same *sdr.hu* key for all of your receivers.
-  * Please use a different `receiver_name` for each of your receivers, otherwise only one item will appear in the list. 
+  * Please use a different `receiver_name` for each of your receivers, otherwise only one item will appear in the list at *sdr.hu*. 
