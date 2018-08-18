@@ -37,7 +37,7 @@
 * [[Using GrOsmoSDR as signal source]]<br/>(this supports many hardware including USRP, FunCube, SDR-IQ, etc.)
 * [[Using OpenWebRX with the audio card as a VLF receiver]]
 * [[Adding support for new receiver hardware]]
-* [[Using OpenWebRX with Perseus]]
+* [[Using OpenWebRX with Microtelecom Perseus HF receiver]]
 * [[Using OpenWebRX with S9-C]]
 * [[Using OpenWebRX with Elad receivers]]
 * [[Using OpenWebRX with an AirSpyHF (IW0HDV version)]]
