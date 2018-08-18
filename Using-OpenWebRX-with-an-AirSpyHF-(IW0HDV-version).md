@@ -30,6 +30,6 @@ Clone IW0HDV fork, that contains a configuration file suitable for AirSpyHF:
 
 ## Run as usual
 
-    ptyhon openwebrx.py
+    python openwebrx.py
 
 
