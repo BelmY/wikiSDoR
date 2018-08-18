@@ -40,3 +40,4 @@
 * [[Using OpenWebRX with Perseus]]
 * [[Using OpenWebRX with S9-C]]
 * [[Using OpenWebRX with Elad receivers]]
+* [[Using OpenWebRX with an AirSpyHF (IW0HDV version)]]
