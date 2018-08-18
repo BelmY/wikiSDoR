@@ -23,7 +23,7 @@ The following instructions assume that you are using Ubuntu 14.04 or later.
 
 
 ## Install OpenWebRx
-Clone IW0HDV fork, that contains a configuration file suitable for Perseus:    
+Clone IW0HDV fork, that contains a configuration file suitable for AirSpyHF:    
     
     cd ~/
     git clone https://github.com/IW0HDV/openwebrx.git -b airspyhf
