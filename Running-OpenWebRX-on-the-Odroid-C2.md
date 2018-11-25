@@ -4,7 +4,7 @@ In the `Makefile`:
 
     PARAMS_NEON = -march=armv8-a+fp+simd+crc+nocrypto -mtune=cortex-a53 -fexpensive-optimizations -funsafe-math-optimizations -Wformat=0
 
-If `netcat` is not installed or not available, in `plugins/dsp/csdr/plugin.py`, from:
+If `netcat` is not installed or not available, in `csdr.py`, from:
 
     any_chain_base="nc -v 127.0.0.1 {nc_port} | "
 
