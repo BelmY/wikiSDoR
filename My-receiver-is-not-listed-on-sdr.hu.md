@@ -30,4 +30,4 @@ Even though you get an `Update succeeded!` on the console, the listing can fail 
 
     ERROR (your IP does not match URL, 1.2.3.4 != 5.6.7.8)
 
-Probably your receiver is sending in the POST request from a different IP address than the one in the URL (through which the receiver is accessible publicly). This check is there to protect the site from spam. Currently there's no easy way for me to lift this for individual receivers. Please try to route the POST request to sdr.hu through the same IP that you use to access your receiver.
+Probably your receiver is sending in the POST request from a different IP address than the one in the URL (through which the receiver is accessible publicly, and is configured with the `server_hostname` field in `config_webrx.py`). This check is there to protect the site from spam. Currently there's no easy way for me to lift this for individual receivers. Please send the POST request to sdr.hu from the same IP that is in the URL you advertise on the site.
