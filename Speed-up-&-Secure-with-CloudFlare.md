@@ -1,4 +1,4 @@
-## Overall
+## Overview
 
 To make your server safer, you can use Nginx Reserved Proxy and WebSocket supported CDN to hide your original IP and speed up, we take a VPS and a CloudFlare as example to show how to do.
 
