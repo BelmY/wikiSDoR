@@ -7,9 +7,9 @@ To make your server safer, you can use Nginx Reserved Proxy and WebSocket suppor
 ## Situation
 
  1. Your ISP didn't provide you with a public IP address.
- 3. You have a VPS, with Nginx (Port 80), local web expose tool (Port 8080, for example Frp-Server) is installed, and your Raspberry has also installed Frp-Client.
- 4. You have your own domain
- 5. You have a CloudFlare Account, and your domain is hosted in it.
+ 2. You have a VPS, with Nginx (Port 80), local web expose tool (Port 8080, for example Frp-Server) is installed, and your Raspberry has also installed Frp-Client.
+ 3. You have your own domain
+ 4. You have a CloudFlare Account, and your domain is hosted in it.
 
 ---
 
