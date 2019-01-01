@@ -17,6 +17,9 @@ To make your server safer, you can use Nginx Reserved Proxy and WebSocket suppor
 
  1. Switch on the WebSocket in CloudFlare Dashbroad (Your Domain --> Network --> WebSockets --> Switch On).
 ![Switch on](https://i.imgur.com/XJbJj3J.jpg)
+Then turn to "Crypto", set SSL option to "Flexible" and switch on "Automatic Https Rewrite" to avoid losing stylesheet. If you want to redirect automatically when accessing, switch on " Always use Https".
+![Flexible SSL](https://i.imgur.com/dFi0zBg.jpg)
+![Automatic Https Rewrites](https://i.imgur.com/PtcsU3o.jpg)
  2. Add your record, forwarding to your VPS and light the "cloud", we set "s.example.org" here.
 ![Add Record](https://i.imgur.com/j9AWgPm.jpg)
  3. Login to your VPS, edit `/etc/hosts`, add the following line:
