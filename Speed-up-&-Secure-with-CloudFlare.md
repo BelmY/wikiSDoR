@@ -65,7 +65,15 @@ use_encryption = false
 use_compression = false
 custom_domains = s.example.org
 ```
- 6. In `htdocs/openwebrx.js`, replace any ws:// with wss://, in `config_webrx.py`, set:
+ 6. In `htdocs/openwebrx.js`, replace line 1698, 
+```
+ws_url="ws://"+(window.location.origin.split("://")[1])+"/ws/";
+```
+with 
+```
+ws_url="wss://s.example.org/ws/";
+```
+In `config_webrx.py`, set:
 ```
 server_hostname="s.example.org/webview/"
 ```
@@ -73,5 +81,5 @@ in `openwebrx.py`, replace line 673 with:
 ```
 ("%[WS_URL]","wss://s.example.org/ws/"),
 ```
- 7. Ok, now type `python openwebrx.py` in terminal, and open `https://s.example.org/webview` in your browser, it runs!
+ 7. OK, now type `python openwebrx.py` in terminal, and open `https://s.example.org/webview` in your browser, it runs!
 ![OpenWebRX under CloudFlare](https://i.imgur.com/diRXKCu.jpg)
