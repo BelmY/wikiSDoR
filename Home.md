@@ -11,6 +11,7 @@
 * [[Optimizing OpenWebRX for speed]]
 * [[Calibrating waterfall display levels]]
 * [[Setup OpenWebRX for HTTPS]] (via Nginx as reverse proxy)
+* [Speed up & Secure with CloudFlare](https://github.com/simonyiszk/openwebrx/wiki/Speed-up-&-Secure-with-CloudFlare)
 * [[Upgrading OpenWebRX to a newer version]]
 * [[Correcting the frequency offset]]
 * [[Running OpenWebRX on the BeagleBone]]
