@@ -84,5 +84,5 @@ in `openwebrx.py`, replace line 673 with:
 ```
 ("%[WS_URL]","wss://s.example.org/ws/"),
 ```
- 7. OK, now type `python openwebrx.py` in terminal, and open `https://s.example.org/webview` in your browser, it runs!
+ 7. OK, now type `python openwebrx.py` in terminal of Raspberry Pi, and open `https://s.example.org/webview` in your browser, it runs!
 ![OpenWebRX under CloudFlare](https://i.imgur.com/diRXKCu.jpg)
