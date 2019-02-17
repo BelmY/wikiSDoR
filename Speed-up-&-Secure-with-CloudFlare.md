@@ -34,6 +34,9 @@ server {
         location /webview/ {
         proxy_pass http://s.example.org:8080/;
         proxy_next_upstream error timeout invalid_header http_500 http_503 http_404;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        proxy_set_header Host $http_host;
         }
         location /ws/ {
         proxy_redirect off;
