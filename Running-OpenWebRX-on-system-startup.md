@@ -41,7 +41,7 @@ check_running(){
 do_start(){
 	check_running
 	if [[ $? -eq 0 ]]; then
-		echo -e "${Info_font_prefix}[Info]${Font_suffix} $NAME Has benn running..." && exit 0
+		echo -e "${Info_font_prefix}[Info]${Font_suffix} $NAME Has been running..." && exit 0
 	else
 		ulimit -n 51200
 		tmux new -d -s openwebrx-session 'bash -c "cd /home/openwebrx; ./openwebrx.py; bash"'
