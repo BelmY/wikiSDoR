@@ -99,6 +99,10 @@ exit $RETVAL
 
 ( Be careful, the line break should be UNIX LF )
 
+```
+chmod +x /etc/init.d/openwebrx
+```
+
 Then edit `/etc/rc.local`. Add this line before `exit 0`:
 
 ```
