@@ -16,7 +16,7 @@ Copy the following line, and save them to `/etc/init.d/openwebrx`:
 ### BEGIN INIT INFO
 # System Required:   CentOS/Debian/Ubuntu (32bit/64bit)
 # Description:       Manager for OpenWebRX, Written by Yukiho Kikuchi
-# Author:            Yukiho Kikuchi 
+# Author:            Yukiho Kikuchi
 # Provides:          OpenWebRX
 # Required-Start:    $network $local_fs $remote_fs
 # Required-Stop:     $network $local_fs $remote_fs
@@ -44,6 +44,7 @@ do_start(){
 		echo -e "${Info_font_prefix}[Info]${Font_suffix} $NAME Has been running..." && exit 0
 	else
 		ulimit -n 51200
+		sleep 5s
 		tmux new -d -s openwebrx-session 'bash -c "cd /home/openwebrx; ./openwebrx.py; bash"'
 		sleep 2s
 		check_running
