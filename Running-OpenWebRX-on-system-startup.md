@@ -1,8 +1,8 @@
-## using `rc.local`
+## simple solution using `rc.local`
 
 The following guide applies to the Raspberry Pi 2 running Raspbian. Running a program at system startup may require different steps on different Linux distributions.
 
-I prefer running my auto-starting scripts in tmux as I can then watch their terminal output even if I connect later over ssh.
+I prefer running my auto-starting scripts in `tmux` as I can then watch their terminal output even if I connect later over `ssh`.
 
 First install `tmux`:
 
@@ -152,16 +152,5 @@ To check if OpenWebRX is running, use `sudo /etc/init.d/openwebrx status`, to re
 You will also be able to inspect the terminal output by typing:
 
     tmux a
-
-`tmux` is quite a useful tool. The programs you start within a `tmux` session will persist even if you close your `ssh` session. Some basic keyboard shortcuts:
-
-    Ctrl+b, then d                    :  Detaches the tmux session. You can return to it by `tmux a`.
-    Ctrl+b, then % or "               :  Splits your screen horizontally or vertically.
-                                         Press Ctrl+d to close the newly created pane.
-    Ctrl+b, then left/right/up/down   :  Navigate between split panes. 
-    Ctrl+b, then c                    :  Creates a new window for you.
-    Ctrl+b, then 1-2-3...             :  Lets you navigate through your windows.
-
-
 
 
