@@ -1,7 +1,8 @@
 ## Welcome to the OpenWebRX Wiki!
 
 ###  Guides on general topics
-
+ 
+* [Quick setup instructions for Ubuntu/Raspian](https://blog.sdr.hu/2015/06/30/quick-setup-openwebrx.html)
 * [[Setting up your router for port forwarding]]
 * [[Customizing OpenWebRX for your station]]
 * [[Running OpenWebRX on system startup]]
