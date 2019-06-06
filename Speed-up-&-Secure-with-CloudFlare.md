@@ -24,7 +24,7 @@ Then turn to "Crypto", set SSL option to "Flexible" and switch on "Automatic Htt
 ![Add Record](https://i.imgur.com/j9AWgPm.jpg)
  3. Login to your VPS, edit `/etc/hosts`, add the following line:
 ```
-127.0.0.1 s.example.org
+1.2.3.4 s.example.org
 ```
  4. Edit Nginx configure file by the following, it'll work in `https://s.example.org/webview/` and WebSocket will work in `wss://s.example.org/ws/`, the root path can put your profile `https://s.example.org/`.
 ```
