@@ -2,12 +2,14 @@
 
 To make your server safer, you can use Nginx Reserved Proxy and WebSocket supported CDN to hide your original IP and speed up, we take a VPS and a CloudFlare as example to show how to do.
 
+**Please note that your device won't be listed on SDR.HU after using this method. In other words, this method is for those who have high security requirements for the server.**
+
 ---
 
 ## Situation
 
  1. Your ISP didn't provide you with a public IP address.
- 2. You have a VPS, with Nginx (Port 80), local web expose tool (Port 8080, for example Frp-Server) is installed, and your Raspberry has also installed Frp-Client.
+ 2. You have a VPS (IP 1.2.3.4), with Nginx (Port 80), local web expose tool (Port 8080, for example Frp-Server) is installed, and your Raspberry has also installed Frp-Client.
  3. You have your own domain
  4. You have a CloudFlare Account, and your domain is hosted in it.
 
@@ -16,12 +18,12 @@ To make your server safer, you can use Nginx Reserved Proxy and WebSocket suppor
 ## How to do
 
  1. Switch on the WebSocket in CloudFlare Dashbroad (Your Domain --> Network --> WebSockets --> Switch On).
-![Switch on](https://i.imgur.com/XJbJj3J.jpg)
+![Switch on](https://cdn-image.ibcl.us/RTLSDR-Modifying_20190323/13.jpg)
 Then turn to "Crypto", set SSL option to "Flexible" and switch on "Automatic Https Rewrite" to avoid losing stylesheet. If you want to redirect automatically when accessing, switch on " Always use Https".
 ![Flexible SSL](https://i.imgur.com/dFi0zBg.jpg)
 ![Automatic Https Rewrites](https://i.imgur.com/PtcsU3o.jpg)
  2. Add your record, forwarding to your VPS and light the "cloud", we set "s.example.org" here.
-![Add Record](https://i.imgur.com/j9AWgPm.jpg)
+![Add Record](https://cdn-image.ibcl.us/RTLSDR-Modifying_20190323/12.jpg)
  3. Login to your VPS, edit `/etc/hosts`, add the following line:
 ```
 1.2.3.4 s.example.org
@@ -55,7 +57,7 @@ server {
     error_log  /www/logs/error.log;
 }
 ```
-![Profile](https://i.imgur.com/XJRwN4X.jpg)
+![Secured Connection](https://i.imgur.com/wOKcKml.jpg)
  5. Set the local listen port to 8073 in Frp-Client configure file `frpc.ini`, and run Frp-Client in its folder `./frpc -c ./frpc.ini` (Frp-Server should be running).
 ```
 [common]
@@ -88,4 +90,4 @@ in `openwebrx.py`, replace line 673 with:
 ("%[WS_URL]","wss://s.example.org/ws/"),
 ```
  7. OK, now type `python openwebrx.py` in terminal of Raspberry Pi, and open `https://s.example.org/webview` in your browser, it runs!
-![OpenWebRX under CloudFlare](https://i.imgur.com/diRXKCu.jpg)
+![OpenWebRX under CloudFlare](https://i.imgur.com/uJA2nXU.jpg)
