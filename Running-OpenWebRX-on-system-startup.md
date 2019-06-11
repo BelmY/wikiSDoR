@@ -79,7 +79,6 @@ do_start(){
 		echo -e "${Info_font_prefix}[Info]${Font_suffix} $NAME Has been running..." && exit 0
 	else
 		ulimit -n 51200
-		sleep 5s
 		tmux new -d -s openwebrx-session 'bash -c "cd /home/openwebrx; ./openwebrx.py; bash"'
 		sleep 2s
 		check_running
