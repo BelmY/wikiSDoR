@@ -92,7 +92,7 @@ You can terminate it by pressing <kbd>Ctrl</kbd>+<kbd>C</kbd> multiple times, or
 Uncomment the corresponding lines in `config_webrx.py`:
 ```python
 soapy_device_query="0" #can be a number or can correspond to a driver, e.g. soapy_device_query="driver=hackrf", see `rx_sdr --help`
-start_rtl_command="rx_sdr -d {device_query} -F CF32 -s {samp_rate} -f {center_freq} -p {ppm} -g {rf_gain} -".format(device_query=soapy_device_query, rf_gain=rf_gain, center_freq=center_freq, samp_rate=samp_rate, ppm=ppm)
+start_rtl_command="rx_sdr -d {device_query} -I CF32 -F CF32 -s {samp_rate} -f {center_freq} -p {ppm} -g {rf_gain} -".format(device_query=soapy_device_query, rf_gain=rf_gain, center_freq=center_freq, samp_rate=samp_rate, ppm=ppm)
 format_conversion=""
 ```
 
